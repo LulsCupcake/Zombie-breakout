@@ -1,0 +1,51 @@
+<xml>
+	<state name="std" type="template_state" segment="base">
+		<default blend="0"/>
+
+		<to	name="jerry_lift" redirect="std/move/jerry_lift"/>
+		<to	name="propellers_start" redirect="std/move/propellers_start"/>
+		<to	name="propellers_loop" redirect="std/move/propellers_loop"/>
+		<to	name="propellers_stop" redirect="std/move/propellers_stop"/>
+
+	</state>
+
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+			<!-- <key at="9" callback="anim_clbk_empty_full_blend" class_name="base"/> -->
+			<!-- <key at="exit" callback="anim_clbk_empty_exit" class_name="base"/> -->
+		</keys>
+	</state>
+
+	<state name="std/move" type="template_state" segment="base">
+		<!-- <keys> -->
+			<!-- <key at="enter" callback="anim_clbk_animated_driving" class_name="base" param1="true"/> -->
+			<!-- <key at="exit" callback="anim_clbk_animated_driving" class_name="base" param1="false"/> -->
+		<!-- </keys> -->
+	</state>
+
+	<state name="std/move/jerry_lift" type="once" speed="0.5" segment="base">
+		<anim name="anim_jerry_lift"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/move/propellers_start" type="once" segment="propellers">
+		<anim name="anim_propellers_start"/>
+		<exit name="std/move/propellers_loop"/>
+	</state>
+
+	<state name="std/move/propellers_loop" type="loop" segment="propellers">
+		<block name="std/move/propellers_loop" />
+		<from name="std/move/propellers_start" blend="1" />
+		<anim name="anim_propellers_loop"/>
+
+		<keys>
+			<key at="loop" callback="anim_clbk_blackhawk_1_at_loop_end" class_name="base"/>
+		</keys>
+	</state>
+
+	<state name="std/move/propellers_stop" type="once" segment="propellers">
+		<from name="std/move/propellers_loop" blend="1" />
+		<anim name="anim_propellers_stop"/>
+		<exit name="std/empty"/>
+	</state>
+</xml>

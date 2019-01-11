@@ -1,0 +1,12 @@
+<unit type="gen" slot="1" >
+    <object file="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna" />
+	<network sync="spawn" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="interaction" class="UseInteractionExt" >
+			<var name="_remove_on_interact" value="true" />
+			<var name="tweak_data" value="pickup_asset" />
+		</extension>
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

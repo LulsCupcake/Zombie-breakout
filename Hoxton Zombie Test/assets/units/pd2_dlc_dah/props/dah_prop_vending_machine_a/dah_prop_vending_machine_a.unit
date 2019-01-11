@@ -1,0 +1,7 @@
+<unit type="dah" slot="1">
+	<object file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

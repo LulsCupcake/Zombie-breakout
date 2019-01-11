@@ -1,0 +1,20 @@
+<materials version="3" group="gov_d_int_security_door_terminal">
+    <material name="mat_terminal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_terminal_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_terminal_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_display" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_terminal_panel_4_df"/>
+        <self_illumination_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_terminal_panel_4_df"/>
+        <variable value="desklight" type="scalar" name="il_multiplier"/>
+    </material>
+	<material name="mat_leds" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_terminal_panel_1_df"/>
+        <variable value="sun" type="scalar" name="intensity"/>
+    </material>
+    <material name="mtr_card" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_door_keycard/keycard_df"/>
+    </material>
+</materials>

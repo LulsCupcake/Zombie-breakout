@@ -1,0 +1,62 @@
+<xml>
+
+<!-- Animatable sets ------------------------------------------------------------->
+	<animatable_set name="helicopter">
+		<!-- Root -->
+		<bone name="rp_helicopter" root="true" alignment="true" alias="all root"/>
+		<bone name="a_body" alias="all"/>
+		<bone name="a_missile_1" alias="missile1"/>
+		<bone name="a_missile_2" alias="missile2"/>
+		<bone name="a_missile_3" alias="missile3"/>
+		<bone name="a_missile_4" alias="missile4"/>
+		<bone name="a_missile_5" alias="missile5"/>
+		<bone name="a_missile_6" alias="missile6"/>
+		<bone name="a_missile_7" alias="missile7"/>
+	</animatable_set>
+	
+	
+<!-- Blend sets ------------------------------------------------------------->
+	<blend_set name="all" animatable_set="helicopter">
+		<blend alias="all" weight="1.0"/>
+	</blend_set>
+	
+	<blend_set name="all_no_root" animatable_set="helicopter">
+		<blend alias="all" weight="1.0"/>
+		<blend name="rp_helicopter" weight="0.0"/>
+	</blend_set>
+
+	<blend_set name="missile_1" animatable_set="helicopter">
+		<blend alias="missile1" weight="1.0"/>
+	</blend_set>
+
+	<blend_set name="missile_2" animatable_set="helicopter">
+		<blend alias="missile2" weight="1.0"/>
+	</blend_set>
+
+	<blend_set name="missile_3" animatable_set="helicopter">
+		<blend alias="missile3" weight="1.0"/>
+	</blend_set>
+
+	<blend_set name="missile_4" animatable_set="helicopter">
+		<blend alias="missile4" weight="1.0"/>
+	</blend_set>
+
+	<blend_set name="missile_5" animatable_set="helicopter">
+		<blend alias="missile5" weight="1.0"/>
+	</blend_set>
+
+	<blend_set name="missile_6" animatable_set="helicopter">
+		<blend alias="missile6" weight="1.0"/>
+	</blend_set>
+
+	<blend_set name="missile_7" animatable_set="helicopter">
+		<blend alias="missile7" weight="1.0"/>
+	</blend_set>
+	
+<!-- Animation sets ------------------------------------------------------------->
+	
+	<animation_set name="helicopter" animatable_set="helicopter">
+		<subset file="anims/units/apartment_helicopter/std"/>
+	</animation_set>
+	
+</xml>

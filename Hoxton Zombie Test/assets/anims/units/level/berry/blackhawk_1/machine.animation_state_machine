@@ -1,0 +1,10 @@
+
+<state_machine name="machine" timebase="frames">
+	<segment name="base"/>
+	<segment name="propellers" parent="base"/>
+	
+	<default state="std/empty"/>
+	
+	<states file="anims/units/level/berry/blackhawk_1/states" />
+	
+</state_machine>

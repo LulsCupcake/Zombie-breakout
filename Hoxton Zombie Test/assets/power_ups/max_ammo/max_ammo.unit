@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<unit type="dev" slot="23">
+	<network sync="spawn" />
+	<object file="power_ups/max_ammo/max_ammo" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="pickup" class="AmmoClip">
+			<var name="_power_up_id" value="1" />
+		</extension>
+	</extensions>
+</unit>

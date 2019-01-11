@@ -1,0 +1,47 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_d_int_armory" materials="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_armory" />
+    
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="c_box_00" collision_type="box" padding="-2.5"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object name="c_box_18" collision_type="box" padding="-2.5"/>
+			<object name="c_box_19" collision_type="box" padding="-2.5"/>
+			<object name="c_box_20" collision_type="box" padding="-2.5"/>
+			<object name="c_box_21" collision_type="box" padding="-2.5"/>
+			<object name="c_box_22" collision_type="box" padding="-2.5"/>
+			<object name="c_box_23" collision_type="box" padding="-2.5"/>
+			<object name="c_box_24" collision_type="box" padding="-2.5"/>
+			<object name="c_box_25" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	<decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plaster" material="plaster" />
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+        <decal_mesh enabled="true" name="g_glass" material="glass_unbreakable" />
+    </decal_surfaces>
+	
+	<graphics>
+        <object enabled="true" name="g_armory_counter" />
+        <object enabled="true" name="g_deskprops" />
+        <object enabled="true" name="g_glass" />
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

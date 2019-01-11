@@ -1,0 +1,59 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_d_int_ceiling_tile_debris" materials="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile"/>
+	<sequence_manager file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_debris"/>
+	
+    <bodies>	
+		<body name="editor" template="editor" enabled="true" >
+			<object name="rp_gov_d_int_ceiling_tile_debris" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="debris_body_01" template="debris" enabled="true" >
+			<object name="c_box_dmg_1" collision_type="box"/>
+		</body>
+		<body name="debris_body_02" template="debris" enabled="true" >
+			<object name="c_box_dmg_2" collision_type="box"/>
+
+		</body>
+		<body name="debris_body_03" template="debris" enabled="true" >
+			<object name="c_box_dmg_3" collision_type="box" />
+
+		</body>
+		<body name="debris_body_04" template="debris" enabled="true" >
+			<object name="c_box_dmg_4" collision_type="box" />
+
+		</body>
+		<body name="debris_body_05" template="debris" enabled="true" >
+			<object name="c_convex_dmg_5" collision_type="convex" />
+
+		</body>
+		<body name="debris_body_06" template="debris" enabled="true" >
+			<object name="c_box_dmg_6" collision_type="box" />
+
+		</body>
+		<body name="debris_body_07" template="debris" enabled="true" >
+			<object name="c_convex_dmg_7" collision_type="convex" />
+
+		</body>
+		<body name="debris_body_08" template="debris" enabled="true" >
+			<object name="c_box_dmg_8" collision_type="box" />
+
+		</body>
+		<body name="debris_body_09" template="debris" enabled="true" >
+			<object name="c_box_dmg_9" collision_type="box" />
+
+		</body>
+	</bodies>
+	
+    <graphics>
+		<object name="g_dmg_1" enabled="true"/>
+		<object name="g_dmg_2" enabled="true"/>
+		<object name="g_dmg_3" enabled="true"/>
+		<object name="g_dmg_4" enabled="true"/>
+		<object name="g_dmg_5" enabled="true"/>
+		<object name="g_dmg_6" enabled="true"/>
+		<object name="g_dmg_7" enabled="true"/>
+		<object name="g_dmg_8" enabled="true"/>
+		<object name="g_dmg_9" enabled="true"/>
+    </graphics>
+		
+</dynamic_object>

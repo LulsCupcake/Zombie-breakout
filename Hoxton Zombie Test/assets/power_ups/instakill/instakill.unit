@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<unit type="dev" slot="23">
+	<network sync="spawn" />
+	<object file="power_ups/instakill/instakill" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="pickup" class="AmmoClip">
+			<var name="_power_up_id" value="3" />
+		</extension>
+	</extensions>
+</unit>

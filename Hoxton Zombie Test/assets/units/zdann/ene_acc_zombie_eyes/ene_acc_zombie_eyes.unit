@@ -1,0 +1,9 @@
+<unit type="gen" slot="30">
+	<object file="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes" />
+	<dependencies>
+		<depends_on effect="effects/zm/zm_eyes" />
+	</dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

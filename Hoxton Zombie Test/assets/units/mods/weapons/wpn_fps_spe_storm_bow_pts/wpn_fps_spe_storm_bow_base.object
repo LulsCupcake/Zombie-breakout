@@ -1,0 +1,39 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_spe_storm_bow_pts/wpn_fps_spe_storm_bow_base" orientation_object="rp_wpn_fps_bow_elastic_bow" />
+	<animations>
+		<animation_group name="recoil">
+		</animation_group>
+		<animation_group name="reload">
+			<object name="anim_m_reload" enabled="true" />
+		</animation_group>
+		<animation_group name="charge" >
+			<object name="wpn_fps_bow_elastic" 		enabled="true" />
+			<object name="a_bow_top_limb" 			enabled="true" />
+			<object name="a_top_spin" 				enabled="true" />
+			<object name="a_top_string_seg_01" 		enabled="true" />
+			<object name="a_top_string_seg_02" 		enabled="true" />
+			<object name="a_top_string_seg_03" 		enabled="true" />
+			<object name="a_top_string_seg_04" 		enabled="true" />
+			<object name="a_top_string_seg_05" 		enabled="true" />
+			<object name="a_top_string_seg_06" 		enabled="true" />
+			<object name="a_bot_top_limb" 			enabled="true" />
+			<object name="a_bot_spin" 				enabled="true" />
+			<object name="a_bot_string_seg_01" 		enabled="true" />
+			<object name="a_bot_string_seg_02" 		enabled="true" />
+			<object name="a_bot_string_seg_03" 		enabled="true" />
+			<object name="a_bot_string_seg_04" 		enabled="true" />
+			<object name="a_bot_string_seg_05" 		enabled="true" />
+			<object name="a_bot_string_seg_06" 		enabled="true" />
+			<object name="a_bot_string_seg_07" 		enabled="true" />
+			<object name="a_string_root" 			enabled="true" />
+			<object name="a_string" 				enabled="true" />
+			<object name="a_string_bend_01" 		enabled="true" />
+			<object name="a_string_bend_02" 		enabled="true" />
+			<object name="anim_m_charge" 			enabled="true" />
+		</animation_group>
+	</animations>	
+	<graphics>
+		<object name="g_bow" enabled="true" />
+		<object name="g_string_loop" enabled="true" />
+	</graphics>
+</dynamic_object>

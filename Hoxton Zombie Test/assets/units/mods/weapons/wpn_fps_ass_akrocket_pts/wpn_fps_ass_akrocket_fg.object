@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel materials="units/mods/weapons/wpn_fps_ass_akrocket_pts/wpn_fps_ass_akrocket_fg" orientation_object="rp_wpn_fps_ass_akmsu_fg_standard" />
+    <graphics>
+        <object enabled="true" name="g_standard" />
+    </graphics>
+</dynamic_object>

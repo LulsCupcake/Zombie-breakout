@@ -1,0 +1,49 @@
+<xml>
+
+	
+	<anim name="anim_chew_bwd"		file="anims/helicopter/chew/chew_bwd"		blend_set="all"/>
+	<anim name="anim_chew_bwd_to_l"	file="anims/helicopter/chew/chew_bwd_to_l"	blend_set="all"/>
+	<anim name="anim_chew_bwd_to_r"	file="anims/helicopter/chew/chew_bwd_to_r"	blend_set="all"/>
+	<anim name="anim_chew_exit"		file="anims/helicopter/chew/chew_exit"		blend_set="all"/>
+	<anim name="anim_chew_fwd"		file="anims/helicopter/chew/chew_fwd"		blend_set="all"/>
+	<anim name="anim_chew_fwd_to_l"	file="anims/helicopter/chew/chew_fwd_to_l"	blend_set="all"/>
+	<anim name="anim_chew_fwd_to_r"	file="anims/helicopter/chew/chew_fwd_to_r"	blend_set="all"/>
+	<anim name="anim_chew_idle"		file="anims/helicopter/chew/chew_idle"		blend_set="all"/>
+	<anim name="anim_chew_start"	file="anims/helicopter/chew/chew_start"		blend_set="all"/>
+
+	<anim name="anim_chew_fps_enter"	file="anims/helicopter/chew/fps_enter"	blend_set="all_no_root"/>
+	<anim name="anim_chew_fps_exit"		file="anims/helicopter/chew/fps_exit"	blend_set="all_no_root"/>
+	<anim name="anim_chew_fps_idle"		file="anims/helicopter/chew/fps_idle"	blend_set="all_no_root"/>
+	
+	
+	<anim name="roof_to_exit"		file="anims/level/friend/helicopter/roof_to_exit"		blend_set="all"/>
+	<anim name="start_to_drop"		file="anims/level/friend/helicopter/start_to_drop"		blend_set="all"/>
+
+	<anim name="car1_drop"			file="anims/level/friend/helicopter/car1_drop"			blend_set="all"/>
+	<anim name="car1_to_roof"		file="anims/level/friend/helicopter/car1_to_roof"		blend_set="all"/>
+	<anim name="car2_drop"			file="anims/level/friend/helicopter/car2_drop"			blend_set="all"/>
+	<anim name="car2_to_roof"		file="anims/level/friend/helicopter/car2_to_roof"		blend_set="all"/>
+	<anim name="car3_drop"			file="anims/level/friend/helicopter/car3_drop"			blend_set="all"/>
+	<anim name="car3_to_roof"		file="anims/level/friend/helicopter/car3_to_roof"		blend_set="all"/>
+	<anim name="car4_drop"			file="anims/level/friend/helicopter/car4_drop"			blend_set="all"/>
+	<anim name="car4_to_roof"		file="anims/level/friend/helicopter/car4_to_roof"		blend_set="all"/>
+	<anim name="car5_drop"			file="anims/level/friend/helicopter/car5_drop"			blend_set="all"/>
+	<anim name="car5_to_roof"		file="anims/level/friend/helicopter/car5_to_roof"		blend_set="all"/>
+
+	<anim name="drop_to_car1"		file="anims/level/friend/helicopter/drop_to_car1"		blend_set="all"/>
+	<anim name="drop_to_car2"		file="anims/level/friend/helicopter/drop_to_car2"		blend_set="all"/>
+	<anim name="drop_to_car3"		file="anims/level/friend/helicopter/drop_to_car3"		blend_set="all"/>
+	<anim name="drop_to_car4"		file="anims/level/friend/helicopter/drop_to_car4"		blend_set="all"/>
+	<anim name="drop_to_car5"		file="anims/level/friend/helicopter/drop_to_car5"		blend_set="all"/>
+
+	<anim name="car1_idle"			file="anims/level/friend/helicopter/car1_idle"			blend_set="all"/>
+	<anim name="car2_idle"			file="anims/level/friend/helicopter/car2_idle"			blend_set="all"/>
+	<anim name="car3_idle"			file="anims/level/friend/helicopter/car3_idle"			blend_set="all"/>
+	<anim name="car4_idle"			file="anims/level/friend/helicopter/car4_idle"			blend_set="all"/>
+	<anim name="car5_idle"			file="anims/level/friend/helicopter/car5_idle"			blend_set="all"/>
+	
+	
+	<anim name="anim_spa_escape_enter"			file="anims/helicopter/spa/spa_escape_enter"			blend_set="all"/>
+	<anim name="anim_spa_escape_idle"			file="anims/helicopter/spa/spa_escape_idle"				blend_set="all"/>
+	
+</xml>

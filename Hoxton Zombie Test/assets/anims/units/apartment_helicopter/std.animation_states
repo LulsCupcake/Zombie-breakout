@@ -1,0 +1,96 @@
+<xml>
+	
+	<state name="std" type="template_state" segment="base">
+		<default blend="0"/>
+		<to name="heli_hlm_attack" redirect="std/apartment/hlm_attack"/>
+		<to name="heli_hlm_missile1" redirect="std/missile1/launch"/>
+		<to name="heli_hlm_missile2" redirect="std/missile2/launch"/>
+		<to name="heli_hlm_missile3" redirect="std/missile3/launch"/>
+		<to name="heli_hlm_missile4" redirect="std/missile4/launch"/>
+		<to name="heli_hlm_missile5" redirect="std/missile5/launch"/>
+		<to name="heli_hlm_missile6" redirect="std/missile6/launch"/>
+
+		<to name="heli_hlm2_attack" redirect="std/apartment/hlm2_attack"/>
+		<to name="heli_hlm2_missile1" redirect="std/hlm2_missile1/launch"/>
+		<to name="heli_hlm2_missile2" redirect="std/hlm2_missile2/launch"/>
+		<to name="heli_hlm2_missile3" redirect="std/hlm2_missile3/launch"/>
+		<to name="heli_hlm2_missile4" redirect="std/hlm2_missile4/launch"/>
+		<to name="heli_hlm2_missile5" redirect="std/hlm2_missile5/launch"/>
+		<to name="heli_hlm2_missile6" redirect="std/hlm2_missile6/launch"/>
+	</state>
+
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+			<key at="9" callback="anim_clbk_empty_full_blend" class_name="base"/>
+			<key at="exit" callback="anim_clbk_empty_exit" class_name="base"/>
+		</keys>
+	</state>
+
+	<state name="std/apartment" type="template_state" segment="base">
+		<keys>
+			<key at="enter" callback="anim_clbk_animated_driving" class_name="base" param1="true"/>
+			<key at="exit" callback="anim_clbk_animated_driving" class_name="base" param1="false"/>
+		</keys>
+	</state>
+
+	<state name="std/apartment/hlm_attack" type="once" segment="base">
+		<anim name="anim_heli_hlm_attack"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/apartment/hlm2_attack" type="once" segment="base">
+		<anim name="anim_heli_hlm2_attack"/>
+		<exit name="std/empty"/>
+	</state>
+	
+
+	<!-- HLM1 MISSILE -->
+	<state name="std/missile1/launch" type="once" segment="missile1">
+		<anim name="anim_heli_missile1"/>
+	</state>
+
+	<state name="std/missile2/launch" type="once" segment="missile2">
+		<anim name="anim_heli_missile2"/>
+	</state>
+
+	<state name="std/missile3/launch" type="once" segment="missile3">
+		<anim name="anim_heli_missile3"/>
+	</state>
+
+	<state name="std/missile4/launch" type="once" segment="missile4">
+		<anim name="anim_heli_missile4"/>
+	</state>
+
+	<state name="std/missile5/launch" type="once" segment="missile5">
+		<anim name="anim_heli_missile5"/>
+	</state>
+
+	<state name="std/missile6/launch" type="once" segment="missile6">
+		<anim name="anim_heli_missile6"/>
+	</state>
+
+	<!-- HLM2 MISSILE -->
+	<state name="std/hlm2_missile1/launch" type="once" segment="missile1">
+		<anim name="anim_heli_hlm2_missile1"/>
+	</state>
+
+	<state name="std/hlm2_missile2/launch" type="once" segment="missile2">
+		<anim name="anim_heli_hlm2_missile2"/>
+	</state>
+
+	<state name="std/hlm2_missile3/launch" type="once" segment="missile3">
+		<anim name="anim_heli_hlm2_missile3"/>
+	</state>
+
+	<state name="std/hlm2_missile4/launch" type="once" segment="missile4">
+		<anim name="anim_heli_hlm2_missile4"/>
+	</state>
+
+	<state name="std/hlm2_missile5/launch" type="once" segment="missile5">
+		<anim name="anim_heli_hlm2_missile5"/>
+	</state>
+
+	<state name="std/hlm2_missile6/launch" type="once" segment="missile6">
+		<anim name="anim_heli_hlm2_missile6"/>
+	</state>
+</xml>

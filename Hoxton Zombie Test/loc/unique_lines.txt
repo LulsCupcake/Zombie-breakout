@@ -1,0 +1,7 @@
+{
+    "failed_summary_name" : "You died. No one survived. The entire world is full of zombies and humanity has come to a bitter end.",
+    "hud_custody_in" : "Dead in",
+    "menu_resume_game" : "RESUME CARNAGE",
+    "menu_resume_game_help" : "Get back to hell.",
+    "menu_restart_game" : "RESTART CARNAGE"
+}

@@ -1,0 +1,49 @@
+<dynamic_object>
+	<diesel materials="units/babuforce/teleporter/teleporter" orientation_object="rp_mkp_int_floor_2x2m_a" />
+	<sequence_manager file="units/babuforce/teleporter/teleporter" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mkp_int_floor_2x2m_a" />
+			<object name="co_culling" />
+			<object name="g_teleporter_pad_001" />
+			<object name="g_teleporter_pad_002" />
+			<object name="g_teleporter_pad_003" />
+			<object name="g_teleporter_pad_004" />
+			<object name="g_teleporter_pad_005" />
+			<object name="c_convex_001" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_002" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_003" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_004" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_005" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_006" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_007" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_008" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_009" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_010" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_011" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_012" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_013" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_014" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_015" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_016" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_017" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_018" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="teleporter_pad" culling_object="co_culling" enabled="true">
+			<object name="g_teleporter_pad_001" enabled="true" shadow_caster="true"/>
+			<object name="g_teleporter_pad_002" enabled="true" shadow_caster="true"/>
+			<object name="g_teleporter_pad_003" enabled="true" shadow_caster="true"/>
+			<object name="g_teleporter_pad_004" enabled="true" shadow_caster="true"/>
+			<object name="g_teleporter_pad_005" enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+    <decal_surfaces>
+			<object name="g_teleporter_pad_001" enabled="true" material="metal"/>
+			<object name="g_teleporter_pad_002" enabled="true" material="metal"/>
+			<object name="g_teleporter_pad_003" enabled="true" material="metal"/>
+			<object name="g_teleporter_pad_004" enabled="true" material="metal"/>
+			<object name="g_teleporter_pad_005" enabled="true" material="metal"/>
+    </decal_surfaces>
+</dynamic_object>

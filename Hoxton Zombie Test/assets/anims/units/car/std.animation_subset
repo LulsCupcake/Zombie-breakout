@@ -1,0 +1,109 @@
+<!-- If the animation finishes inside the viewable area and does not finish outside of the viewable area, 
+	 you must animate the root point. Or else the animation will not sync at drop in. 
+	 For eample the police car arrives and stop in the viewable area, here the root point shoul be animated.
+	 The heicopter arrives and leaves the the viewable area, here all_no_root is allowed. -->
+
+<xml>
+	<!-- HLM -->
+	<anim	name="anim_car_winch_loop"				file="anims/car/car_winch_loop"					blend_set="all"/>
+	<anim	name="anim_car_winch_release"			file="anims/car/car_winch_release"				blend_set="all"/>
+	<anim	name="anim_car_winch_start"				file="anims/car/car_winch_start"				blend_set="all"/>
+	<anim	name="anim_car_winch_stop"				file="anims/car/car_winch_stop"					blend_set="all"/>
+	<anim	name="anim_car_hlm_arrive_1"			file="anims/car/car_hlm_arrive_1"				blend_set="all"/>
+	<anim	name="anim_car_hlm_arrive_2"			file="anims/car/car_hlm_arrive_2"				blend_set="all"/>
+	<anim	name="anim_car_hlm_arrive_3"			file="anims/car/car_hlm_arrive_3"				blend_set="all"/>
+	<anim	name="anim_car_hlm_arrive_4"			file="anims/car/car_hlm_arrive_4"				blend_set="all"/>
+
+	<!-- KASUGI -->
+	<anim	name="anim_suv_kasugi_leave"			file="anims/car/suv_kasugi_leave"				blend_set="all"/>
+
+	<!-- BIG BANK -->
+	<anim	name="anim_van_bigbank_leave"			file="anims/car/van_bigbank_leave"				blend_set="all"/>
+
+	<!-- GENERIC -->
+	<anim	name="anim_car_straight_slow_full_to_full_16m"				file="anims/car/car_straight_slow_full_to_full_16m"					blend_set="all"/>
+	<anim	name="anim_car_straight_slow_full_to_stop_8m"				file="anims/car/car_straight_slow_full_to_stop_8m"					blend_set="all"/>
+	<anim	name="anim_car_straight_slow_stop_to_full_8m"				file="anims/car/car_straight_slow_stop_to_full_8m"					blend_set="all"/>
+	<anim	name="anim_car_turn_left_slow_full_to_full_16m"				file="anims/car/car_turn_left_slow_full_to_full_16m"				blend_set="all"/>
+	<anim	name="anim_car_turn_right_slow_full_to_full_16m"			file="anims/car/car_turn_right_slow_full_to_full_16m"				blend_set="all"/>
+
+	<!-- HOX -->
+	<anim	name="anim_car_hox_garage_1"		file="anims/car/car_hox_garage_1"		blend_set="all"/>
+	<anim	name="anim_car_hox_garage_2"		file="anims/car/car_hox_garage_2"		blend_set="all"/>
+	<anim	name="anim_car_hox_move_away"		file="anims/car/car_hox_move_away"		blend_set="all"/>
+	<anim	name="anim_car_hox_intro_skidding"	file="anims/car/car_hox_intro_skidding"	blend_set="all"/>
+
+	<!-- PINES -->
+	<anim	name="anim_van_straight_100m_puncture"	file="anims/car/van_straight_100m_puncture"	blend_set="all"/>
+
+	<!-- MUS -->
+	<anim	name="anim_van_mus_leave"			file="anims/car/van_mus_leave"				blend_set="all"/>
+	<anim	name="anim_car_mus_arrive_1"		file="anims/car/car_mus_arrive_1"			blend_set="all"/>
+	<anim	name="anim_car_mus_arrive_2"		file="anims/car/car_mus_arrive_2"			blend_set="all"/>
+
+	
+	<anim	name="anim_car_pal_arrive_1"		file="anims/car/car_pal_arrive_1"				blend_set="all"/>
+	<anim	name="anim_car_pal_arrive_2"		file="anims/car/car_pal_arrive_2"				blend_set="all"/>
+	
+
+	
+	<anim	name="anim_car_chw_arrive_1"		file="anims/car/car_chw_arrive_1"				blend_set="all"/>
+	<anim	name="anim_car_chw_leave_1"			file="anims/car/car_chw_leave_1"				blend_set="all"/>
+	<anim	name="anim_car_chw_wheel_loop"		file="anims/car/car_chw_wheel_loop"				blend_set="wheels"/>
+	<anim	name="anim_car_chw_idle_loop"		file="anims/car/car_chw_idle_loop"				blend_set="all"/>
+	<anim	name="anim_car_chw_crash_1"			file="anims/car/car_chw_crash_1"				blend_set="all"/>
+	<anim	name="anim_car_chw_crash_2"			file="anims/car/car_chw_crash_2"				blend_set="all"/>
+	<anim	name="anim_car_chw_crash_3"			file="anims/car/car_chw_crash_3"				blend_set="all"/>
+	<anim	name="anim_car_chw_crash_4"			file="anims/car/car_chw_crash_4"				blend_set="all"/>
+	<anim	name="anim_car_chw_crash_5"			file="anims/car/car_chw_crash_5"				blend_set="all"/>
+	<anim	name="anim_car_chw_crash_6"			file="anims/car/car_chw_crash_6"				blend_set="all"/>
+	<anim	name="anim_car_chw_move_fwd_15m"	file="anims/car/car_chw_move_fwd_15m"			blend_set="all"/>
+	<anim	name="anim_car_chw_move_bwd_15m"	file="anims/car/car_chw_move_bwd_15m"			blend_set="all"/>
+	<anim	name="anim_spin_loop"				file="anims/car/spin_loop"						blend_set="all"/>
+	
+
+	
+	<anim	name="anim_car_bor_arrive_1"		file="anims/car/car_bor_arrive_1"				blend_set="all"/>
+	<anim	name="anim_car_bor_arrive_2"		file="anims/car/car_bor_arrive_2"				blend_set="all"/>
+	
+
+	
+	<anim	name="anim_car_gen_whizz_by_160m"	file="anims/car/car_gen_whizz_by_160m"			blend_set="all"/>
+	
+	
+	<anim	name="anim_car_spa_arrive_1"	file="anims/car/car_spa_arrive_1"			blend_set="all"/>
+	<anim	name="anim_car_spa_arrive_2"	file="anims/car/car_spa_arrive_2"			blend_set="all"/>
+	<anim	name="anim_car_spa_arrive_3"	file="anims/car/car_spa_arrive_3"			blend_set="all"/>
+	<anim	name="anim_car_spa_arrive_4"	file="anims/car/car_spa_arrive_4"			blend_set="all"/>
+	<anim	name="anim_car_spa_arrive_5"	file="anims/car/car_spa_arrive_5"			blend_set="all"/>
+
+	<anim	name="anim_car_spa_crash_01"	file="anims/car/car_spa_crash_01"			blend_set="all"/>
+	<anim	name="anim_car_spa_crash_02"	file="anims/car/car_spa_crash_02"			blend_set="all"/>
+
+	<anim	name="anim_car_spa_move_01"		file="anims/car/car_spa_move_01"			blend_set="all"/>
+	<anim	name="anim_car_spa_move_02"		file="anims/car/car_spa_move_02"			blend_set="all"/>
+	
+	
+	<anim	name="anim_car_rvd_arrive_01"		file="anims/car/car_police_rvd_arrive_01"	blend_set="all"/>
+	<anim	name="anim_car_rvd_arrive_02"		file="anims/car/car_police_rvd_arrive_02"	blend_set="all"/>
+	<anim	name="anim_car_rvd_arrive_03"		file="anims/car/car_police_rvd_arrive_03"	blend_set="all"/>
+	<anim	name="anim_car_rvd_arrive_04"		file="anims/car/car_police_rvd_arrive_04"	blend_set="all"/>
+	<anim	name="anim_car_rvd_arrive_05"		file="anims/car/car_police_rvd_arrive_05"	blend_set="all"/>
+
+	<anim	name="anim_car_rvd_crash_01"		file="anims/car/car_police_rvd_crash_01"	blend_set="all"/>
+	<anim	name="anim_car_rvd_crash_02"		file="anims/car/car_police_rvd_crash_02"	blend_set="all"/>
+
+	<anim	name="anim_car_police_rvd_day2_arrive_01"		file="anims/car/car_police_rvd_day2_arrive_01"	blend_set="all"/>
+	<anim	name="anim_car_police_rvd_day2_arrive_02"		file="anims/car/car_police_rvd_day2_arrive_02"	blend_set="all"/>
+	<anim	name="anim_car_police_rvd_day2_arrive_03"		file="anims/car/car_police_rvd_day2_arrive_03"	blend_set="all"/>
+	<anim	name="anim_car_police_rvd_day2_arrive_04"		file="anims/car/car_police_rvd_day2_arrive_04"	blend_set="all"/>
+	<anim	name="anim_car_police_rvd_day2_arrive_05"		file="anims/car/car_police_rvd_day2_arrive_05"	blend_set="all"/>
+	
+	
+	<anim	name="suv_fbi_wwh_exit"			file="anims/car/suv_fbi_wwh_exit"	blend_set="all"/>
+	
+	
+	<anim	name="anim_car_brb_arrive_1"	file="anims/car/car_brb_arrive_1"			blend_set="all"/>
+	<anim	name="anim_car_brb_arrive_2"	file="anims/car/car_brb_arrive_2"			blend_set="all"/>
+	
+</xml>

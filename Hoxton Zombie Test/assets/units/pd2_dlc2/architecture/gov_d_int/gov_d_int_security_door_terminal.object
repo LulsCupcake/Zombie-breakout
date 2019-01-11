@@ -1,0 +1,24 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_d_int_security_door_terminal" materials="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_terminal_4" />
+	<sequence_manager file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_terminal"/>
+     <bodies>
+        <body enabled="true" template="static" name="door_body" >
+            <object name="rp_gov_d_int_security_door_terminal" />
+            <object collision_type="box" name="c_box_00" padding="-2.5" />
+        </body>
+        <body enabled="true" template="editor" name="editor_body" >
+            <object name="rp_gov_d_int_security_door_terminal" />
+            <object collision_type="box" name="c_box_00" padding="-2.5" />
+        </body>
+    </bodies>
+	<decal_surfaces>
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+    </decal_surfaces>
+	<graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="false" name="g_keycard" />
+        <object enabled="true" name="g_led_green" />
+        <object enabled="true" name="g_led_yellow" />
+        <object enabled="true" name="g_led_red" />
+    </graphics>
+</dynamic_object>

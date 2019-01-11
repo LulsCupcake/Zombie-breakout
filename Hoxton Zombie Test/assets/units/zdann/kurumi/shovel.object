@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/zdann/kurumi/shovel" orientation_object="rp_ind_interactable_shipping_crate_2x1x1m" />
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

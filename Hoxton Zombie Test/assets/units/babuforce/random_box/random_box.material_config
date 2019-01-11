@@ -1,0 +1,15 @@
+<materials version="3">
+    <material name="mat_generic_objective" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/babuforce/random_box/textures/generic_objective_df" />
+	</material>
+	
+	<material name="mat_zm_magic_box_c" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/babuforce/random_box/textures/zm_magic_box_df" />
+	</material>
+	
+	<material name="mat_zm_magic_box_hay_c" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/babuforce/random_box/textures/zm_magic_box_hay_df" />
+	</material>
+		
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

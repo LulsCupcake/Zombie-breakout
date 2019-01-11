@@ -1,0 +1,9 @@
+<xml>
+
+	<!-- // -->
+	<anim	name="anim_jerry_lift"			file="anims/level/berry/blackhawk_1/lift"				blend_set="all"/>
+	<anim	name="anim_propellers_start"	file="anims/level/berry/blackhawk_1/propellers_start"	blend_set="propellers"/>
+	<anim	name="anim_propellers_loop"		file="anims/level/berry/blackhawk_1/propellers_loop"	blend_set="propellers"/>
+	<anim	name="anim_propellers_stop"		file="anims/level/berry/blackhawk_1/propellers_stop"	blend_set="propellers"/>
+
+</xml>

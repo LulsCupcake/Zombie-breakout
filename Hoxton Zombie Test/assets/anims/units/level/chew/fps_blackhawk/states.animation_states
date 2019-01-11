@@ -1,0 +1,183 @@
+<xml>
+	<state name="empty" type="emptyloop" segment="base">
+		<from_group name="std" blend="3" />
+		<keys>
+
+		</keys>
+	</state>
+	<state name="std" type="template_state" segment="base">
+		<default blend="5"/>
+
+		
+		<to name="chew_fps_enter"	redirect="std/fly/chew_fps_enter" />
+		<to name="chew_fps_exit"	redirect="std/fly/chew_fps_exit" />
+		<to name="chew_fps_idle"	redirect="std/fly/chew_fps_idle" />
+		
+		
+		<to name="enter"					redirect="std/fly/friend_enter" />
+		<to name="exit"						redirect="std/fly/friend_exit" />
+		<to name="to_car_1"					redirect="std/fly/friend_to_car_1" />
+		<to name="car1_drop_water"			redirect="std/fly/friend_car1_drop_water" />
+		<to name="car1_drop_roof"			redirect="std/fly/friend_car1_to_drop_roof" />
+
+		<to name="to_car_2"					redirect="std/fly/friend_to_car_2" />
+		<to name="car2_drop_water"			redirect="std/fly/friend_car2_drop_water" />
+		<to name="car2_drop_roof"			redirect="std/fly/friend_car2_to_drop_roof" />
+
+		<to name="to_car_3"					redirect="std/fly/friend_to_car_3" />
+		<to name="car3_drop_water"			redirect="std/fly/friend_car3_drop_water" />
+		<to name="car3_drop_roof"			redirect="std/fly/friend_car3_to_drop_roof" />
+
+		<to name="to_car_4"					redirect="std/fly/friend_to_car_4" />
+		<to name="car4_drop_water"			redirect="std/fly/friend_car4_drop_water" />
+		<to name="car4_drop_roof"			redirect="std/fly/friend_car4_to_drop_roof" />
+
+		<to name="to_car_5"					redirect="std/fly/friend_to_car_5" />
+		<to name="car5_drop_water"			redirect="std/fly/friend_car5_drop_water" />
+		<to name="car5_drop_roof"			redirect="std/fly/friend_car5_to_drop_roof" />
+		
+		
+		<to name="spa_escape_enter"			redirect="std/fly/spa_escape_enter" />
+						
+	</state>
+
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+			<key at="9" callback="anim_clbk_empty_full_blend" class_name="base"/>
+			<key at="exit" callback="anim_clbk_empty_exit" class_name="base"/>
+		</keys>
+	</state>
+
+	<state name="std/fly" type="template_state" segment="base">
+		<keys>
+			<key at="enter" callback="anim_clbk_animated_driving" class_name="base" param1="true"/>
+			<key at="exit" callback="anim_clbk_animated_driving" class_name="base" param1="false"/>
+		</keys>
+	</state>
+	
+	
+	<state name="std/fly/chew_fps_enter" type="once" segment="base" >
+		<anim name="anim_chew_fps_enter"/>
+		<exit name="std/fly/chew_fps_idle"/>
+	</state>
+
+	<state name="std/fly/chew_fps_exit" type="once" segment="base" >
+		<anim name="anim_chew_fps_exit"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/fly/chew_fps_idle" type="loop" segment="base" >
+		<anim name="anim_chew_fps_idle"/>
+		<exit name="std/empty"/>
+	</state>
+	
+	
+		<state name="std/fly/spa_escape_enter" type="once" segment="base" >
+			<anim name="anim_spa_escape_enter"/>
+			<exit name="std/fly/spa_escape_idle"/>
+		</state>
+	
+		<state name="std/fly/spa_escape_idle" type="loop" segment="base" >
+			<anim name="anim_spa_escape_idle"/>
+			<exit name="std/empty"/>
+		</state>
+	
+	
+
+	<state name="std/fly/friend_enter" type="once" segment="base">
+		<anim name="start_to_drop"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/fly/friend_exit" type="once" segment="base">
+		<anim name="roof_to_exit"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/fly/friend_car1_drop_water" type="once" segment="base">
+		<anim name="car1_drop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_to_car_1" type="once" segment="base">
+		<anim name="drop_to_car1"/>
+		<exit name="std/fly/friend_car1_idle"/>
+	</state>
+	<state name="std/fly/friend_car1_to_drop_roof" type="once" segment="base">
+		<anim name="car1_to_roof"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_car1_idle" type="loop" segment="base">
+		<anim name="car1_idle"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/fly/friend_car2_drop_water" type="once" segment="base">
+		<anim name="car2_drop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_to_car_2" type="once" segment="base">
+		<anim name="drop_to_car2"/>
+		<exit name="std/fly/friend_car2_idle"/>
+	</state>
+	<state name="std/fly/friend_car2_to_drop_roof" type="once" segment="base">
+		<anim name="car2_to_roof"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_car2_idle" type="loop" segment="base">
+		<anim name="car2_idle"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/fly/friend_car3_drop_water" type="once" segment="base">
+		<anim name="car3_drop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_to_car_3" type="once" segment="base">
+		<anim name="drop_to_car3"/>
+		<exit name="std/fly/friend_car3_idle"/>
+	</state>
+	<state name="std/fly/friend_car3_to_drop_roof" type="once" segment="base">
+		<anim name="car3_to_roof"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_car3_idle" type="loop" segment="base">
+		<anim name="car3_idle"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/fly/friend_car4_drop_water" type="once" segment="base">
+		<anim name="car4_drop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_to_car_4" type="once" segment="base">
+		<anim name="drop_to_car4"/>
+		<exit name="std/fly/friend_car4_idle"/>
+	</state>
+	<state name="std/fly/friend_car4_to_drop_roof" type="once" segment="base">
+		<anim name="car4_to_roof"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_car4_idle" type="loop" segment="base">
+		<anim name="car4_idle"/>
+		<exit name="std/empty"/>
+	</state>
+
+	<state name="std/fly/friend_car5_drop_water" type="once" segment="base">
+		<anim name="car5_drop"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_to_car_5" type="once" segment="base">
+		<anim name="drop_to_car5"/>
+		<exit name="std/fly/friend_car5_idle"/>
+	</state>
+	<state name="std/fly/friend_car5_to_drop_roof" type="once" segment="base">
+		<anim name="car5_to_roof"/>
+		<exit name="std/empty"/>
+	</state>
+	<state name="std/fly/friend_car5_idle" type="loop" segment="base">
+		<anim name="car5_idle"/>
+		<exit name="std/empty"/>
+	</state>
+	
+	
+</xml>

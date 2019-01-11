@@ -1,0 +1,10 @@
+
+<state_machine name="car" timebase="frames">
+	<segment name="base"/>
+	<segment name="wheels"/>
+	
+	<default state="std/empty"/>
+	
+	<states file="anims/units/car/std"/>
+	
+</state_machine>

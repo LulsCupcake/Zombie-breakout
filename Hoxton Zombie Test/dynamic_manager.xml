@@ -1,0 +1,39 @@
+<table directory="assets">
+    <effect load="true" path="effects/zm/weapons/zm_pap_big_fps_ball_flash"/>
+    <effect load="true" path="effects/zm/weapons/zm_pap_extra_fps_big_sparse"/>
+    <effect load="true" path="effects/zm/weapons/zm_pap_big_fps_smoke_flash"/>
+    <effect load="true" path="effects/zm/weapons/zm_pap_big_fps_extra_long_flash"/>
+    <effect load="true" path="effects/zm/zm_pap_muzzle"/>
+    <effect load="true" path="effects/particles/weapons/trail_v2"/>
+    <effect load="true" path="effects/particles/weapons/shovel"/>
+    <effect load="true" path="effects/particles/weapons/super_shovel"/>
+    <effect load="true" path="effects/particles/weapons/wunder_fire"/>
+    <effect load="true" path="effects/particles/weapons/wunder_dg3_fire"/>
+    <effect load="true" path="effects/particles/weapons/wunder_sparks"/>
+    <effect load="true" path="effects/particles/weapons/wunder_dg3_sparks"/>
+    <effect load="true" path="effects/zm/zm_eyes"/>
+    <effect load="true" path="effects/zm/zm_teleport"/>
+    <effect load="true" path="effects/zm/zm_teleport_sparks"/>
+    <effect load="true" path="effects/zm/zm_glow"/>
+    <effect load="true" path="effects/zm/zm_special_spawn"/>
+    <effect load="true" path="effects/zm/zm_powerup_glow"/>
+    <effect load="true" path="effects/payday2/environment/fire_biggy"/>
+    <effect load="true" path="effects/zm/env/braises_10x10"/>
+    <texture path="effects/zm/env/textures/braises_2x2"/>
+    <effect load="true" path="effects/zm/zm_blood_smoke_distorted"/>
+    <effect load="true" path="effects/zm/zm_blood_smoke_distorted_small"/>
+    <effect load="true" path="effects/zm/zm_blood_smoke_trail_small"/>
+    <effect load="true" path="effects/zm/pinkhaze"/>
+    <effect load="true" path="effects/raygun_glow"/>
+    <effect load="true" path="effects/raygun_trail"/>
+	<effect load="true" path="effects/raygun_fire"/>
+
+    <font load="true" path="fonts/murderer"/>
+    <texture path="fonts/murderer"/>
+    <font load="true" path="fonts/escom"/>
+    <texture path="fonts/escom"/>
+    <font load="true" path="fonts/escom_outline"/>
+    <texture path="fonts/escom_outline"/>
+    <font load="true" path="fonts/beyond"/>
+    <texture path="fonts/beyond"/>
+</table>

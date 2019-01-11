@@ -1,0 +1,66 @@
+<materials version="3">
+    <material name="mtl_back" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/bottom_back_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/bottom_back_nm"/>
+    </material>
+    <material name="mtl_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/front_side_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/front_side_nm"/>
+    </material>
+    <material name="mtl_leather" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DIFFUSE_UVANIM" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/leather_df"/>
+        <variable type="vector3" name="uv_speed" value="0 -3 0"/>
+    </material>
+    <material name="mtl_frame_left" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/frame_left_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/frame_left_nm"/>
+		<reflection_texture type="cubemap" global_texture="units/payday2/cubemaps/cubemap_silver"/>
+    </material>
+    <material name="mtl_frame_right" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/frame_right_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/frame_right_nm"/>
+		<reflection_texture type="cubemap" global_texture="units/payday2/cubemaps/cubemap_silver"/>
+    </material>
+    <material name="mtl_inside_detail" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/inside_detail_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/inside_detail_nm"/>
+		<reflection_texture type="cubemap" global_texture="units/payday2/cubemaps/cubemap_silver"/>
+    </material>
+    <material name="mtl_logo_bottom" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DIFFUSE_UVANIM" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/main_op"/>
+        <variable type="vector3" name="uv_speed" value="0 0 0"/>
+    </material>
+    <material name="mtl_logo_edge" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/top_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/top_nm"/>
+    </material>
+    <material name="mtl_logo" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/main_df"/>
+        <self_illumination_texture file="units/zdann/pap_machine/textures/main_il"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/main_nm"/>
+        <variable type="scalar" name="il_multiplier" value="desklight"/>
+        <variable type="scalar" name="il_bloom" value="1"/>
+    </material>
+    <material name="mtl_side" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/side_inside_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/side_inside_nm"/>
+    </material>
+    <material name="mtl_top" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/top_main_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/top_main_nm"/>
+    </material>
+    <material name="mtl_upper_roller_side" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/main_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/main_nm"/>
+    </material>
+    <material name="mtl_upper_roller" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DIFFUSE_UVANIM" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/roller_df"/>
+        <variable type="vector3" name="uv_speed" value="-3 0 0"/>
+    </material>
+    <material name="mtl_wood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/zdann/pap_machine/textures/main_df"/>
+        <bump_normal_texture file="units/zdann/pap_machine/textures/main_nm"/>
+    </material>
+	
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<unit type="deprecated" slot="1">
+  <object file="units/dev_tools/level_tools/collision/dev_collision_1m/dev_collision_1m" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData">
+      <var name="only_visible_in_editor" value="true" />
+    </extension>
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

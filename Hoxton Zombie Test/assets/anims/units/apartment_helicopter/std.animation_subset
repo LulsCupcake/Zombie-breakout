@@ -1,0 +1,19 @@
+<xml>
+	<!-- HLM ANIMATIONS -->
+	<anim name="anim_heli_hlm_attack"		file="anims/payday2/heli_attack/anim_heli_hlm_attack"	blend_set="all_no_root"/>
+	<anim name="anim_heli_missile1"			file="anims/payday2/heli_attack/anim_heli_hlm_attack"	blend_set="missile_1"/>
+	<anim name="anim_heli_missile2"			file="anims/payday2/heli_attack/anim_heli_hlm_attack"	blend_set="missile_2"/>
+	<anim name="anim_heli_missile3"			file="anims/payday2/heli_attack/anim_heli_hlm_attack"	blend_set="missile_3"/>
+	<anim name="anim_heli_missile4"			file="anims/payday2/heli_attack/anim_heli_hlm_attack"	blend_set="missile_4"/>
+	<anim name="anim_heli_missile5"			file="anims/payday2/heli_attack/anim_heli_hlm_attack"	blend_set="missile_5"/>
+	<anim name="anim_heli_missile6"			file="anims/payday2/heli_attack/anim_heli_hlm_attack"	blend_set="missile_6"/>
+
+	<anim name="anim_heli_hlm2_attack"		file="anims/payday2/heli_attack/anim_heli_hlm2_attack"	blend_set="all_no_root"/>
+	<anim name="anim_heli_hlm2_missile1"	file="anims/payday2/heli_attack/anim_heli_hlm2_attack"	blend_set="missile_1"/>
+	<anim name="anim_heli_hlm2_missile2"	file="anims/payday2/heli_attack/anim_heli_hlm2_attack"	blend_set="missile_2"/>
+	<anim name="anim_heli_hlm2_missile3"	file="anims/payday2/heli_attack/anim_heli_hlm2_attack"	blend_set="missile_3"/>
+	<anim name="anim_heli_hlm2_missile4"	file="anims/payday2/heli_attack/anim_heli_hlm2_attack"	blend_set="missile_4"/>
+	<anim name="anim_heli_hlm2_missile5"	file="anims/payday2/heli_attack/anim_heli_hlm2_attack"	blend_set="missile_5"/>
+	<anim name="anim_heli_hlm2_missile6"	file="anims/payday2/heli_attack/anim_heli_hlm2_attack"	blend_set="missile_6"/>
+	
+</xml>

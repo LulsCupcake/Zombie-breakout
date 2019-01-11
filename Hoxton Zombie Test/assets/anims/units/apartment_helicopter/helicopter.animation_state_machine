@@ -1,0 +1,16 @@
+
+<state_machine name="helicopter" timebase="frames">
+	<segment name="base"/>
+	<segment name="missile1"/>
+	<segment name="missile2"/>
+	<segment name="missile3"/>
+	<segment name="missile4"/>
+	<segment name="missile5"/>
+	<segment name="missile6"/>
+	<segment name="missile7"/>
+
+	<default state="std/empty"/>
+	
+	<states file="anims/units/apartment_helicopter/std"/>
+	
+</state_machine>

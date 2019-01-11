@@ -1,0 +1,23 @@
+<dynamic_object>
+    <diesel orientation_object="rp_lxa_prop_hallway_picture_05" materials="units/payday2/props/lxa_prop_hallway_pictures/lxa_prop_hallway_picture_05" />
+	<sequence_manager file="units/payday2/props/lxa_prop_hallway_pictures/lxa_prop_hallway_picture" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_lxa_prop_hallway_picture_05" />
+            <object collision_type="convex" name="c_convex_01" />
+        </body>
+		<body enabled="false" template="small_prop" name="dynamic_body" >
+			<object name="rp_lxa_prop_hallway_picture_05" />
+            <object collision_type="convex" name="c_convex_01" mass="2" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_glass" material="glass_breakable" />
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="false" name="g_dmg" />
+        <object enabled="true" name="g_glass" />
+    </graphics>
+</dynamic_object>

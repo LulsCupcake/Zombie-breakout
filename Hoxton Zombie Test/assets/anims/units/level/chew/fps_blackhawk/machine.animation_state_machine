@@ -1,0 +1,10 @@
+
+<state_machine name="helicopter" timebase="frames">
+	
+	<segment name="base"/>
+	
+	<default state="std/empty"/>
+	
+	<states file="anims/units/level/chew/fps_blackhawk/states"/>
+	
+</state_machine>

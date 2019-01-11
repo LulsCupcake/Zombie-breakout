@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="stn_prop_locker" decal_material="sheet_metal" version="2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/world/props/gym/stn_prop_locker/stn_prop_locker_nm"/>
+        <diffuse_texture file="units/world/props/gym/stn_prop_locker/stn_prop_locker_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="0.80000001192093 0.35100001096725 2" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

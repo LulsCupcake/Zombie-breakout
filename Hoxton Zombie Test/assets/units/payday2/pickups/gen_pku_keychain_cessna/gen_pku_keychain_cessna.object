@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_pku_keychain_cessna" materials="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna" />
+	<sequence_manager file="units/payday2/pickups/gen_pku_keychain_cessna/gen_pku_keychain_cessna" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+			<object name="rp_gen_pku_keychain_cessna" />
+            <object collision_type="box" name="c_box_01" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

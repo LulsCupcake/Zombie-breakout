@@ -1,0 +1,21 @@
+<materials version="3">
+	<material name="mat_vending" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+		<diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/perk_quickrevive" />
+		<material_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a_gsma"/>
+		<bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a_nm" />
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <self_illumination_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/perk_quickrevive_il"/>
+        <variable value="1" type="scalar" name="il_bloom"/>
+        <variable value="1" type="scalar" name="il_multiplier"/>
+	</material>
+	<material name="mat_vending_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+		<diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/perk_quickrevive" mip="4" />
+		<material_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a_gsma" mip="4" />
+		<bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a_nm"  mip="4" />
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <self_illumination_texture file="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/perk_quickrevive_il"/>
+        <variable value="0.7" type="scalar" name="il_bloom"/>
+        <variable value="1" type="scalar" name="il_multiplier"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+</materials>
