@@ -480,6 +480,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		start_active = false,
 		special_equipment = "gas",
 		equipment_text_id = "zm_no_gas",
+		equipment_consume = true,
 		sound_start = "liquid_pour",
 		sound_interupt = "liquid_pour_stop",
 		sound_done = "liquid_pour_stop",
