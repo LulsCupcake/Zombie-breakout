@@ -1,4 +1,5 @@
 {
+	"zm_free_raygun" : "Hold $BTN_INTERACT to get the Raygun",
 	"zm_hack" : "Hacking...",
 	"zm_no_key" : "You need to find some keys", 
 	"zm_key" : "Hold $BTN_INTERACT to unlock the car", 

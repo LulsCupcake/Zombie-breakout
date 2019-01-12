@@ -1,5 +1,5 @@
 <unit type="wpn" slot="1">
-	<object file="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_vis" />
+	<object file="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static" />
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 	</extensions>

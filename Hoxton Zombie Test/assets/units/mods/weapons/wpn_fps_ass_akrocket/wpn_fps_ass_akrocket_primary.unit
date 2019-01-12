@@ -6,7 +6,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="base" class="NewRaycastWeaponBase" >
-			<var name="name_id" value="akmsu_primary" />
+			<var name="name_id" value="akrocket_upg_primary" />
 		</extension>
 	</extensions>
 </unit>

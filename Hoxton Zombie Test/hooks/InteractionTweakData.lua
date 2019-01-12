@@ -1,5 +1,7 @@
 Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", function(self, tweak_data)
+
 	self.pick_lock_hard_no_skill.timer = 7
+	
     self.zm_wall_buy_m14 = {
 		zm_interaction = true,
 		weapon = "M308 Rifle",
@@ -13,12 +15,24 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		timer = 0.5
 	}
 	
-	self.zm_wall_buy_random = {
+	self.zm_free_raygun = {
 		zm_interaction = true,
-		weapon = "Randomizer",
-		weapon_id = "g22c",
-		points_cost = 1500,
-		stay_active = false,
+		weapon = "Raygun",
+		weapon_id = "raygun",
+		points_cost = 0,
+		action_text_id = "zm_buy_weapon",
+		start_active = false,
+		sound_done = "bar_rescue",
+		axis = "y",
+		timer = 0.5
+	}
+	
+	self.zm_wall_buy_raygun = {
+		zm_interaction = true,
+		weapon = "Raygun",
+		weapon_id = "raygun",
+		points_cost = 5000,
+		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
 		sound_done = "bar_rescue",
@@ -381,6 +395,14 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		equipment_text_id = "zm_need_authorization",
 		start_active = false,
 		timer = 3
+	}
+	
+	self.zm_power_req = { 
+		text_id = "zm_teleporter",
+		action_text_id = "zm_use_teleporter",
+		start_active = false,
+		special_equipment = "zm_power_on",
+		equipment_text_id = "zm_no_power",
 	}
 	
 

@@ -402,11 +402,9 @@
 	<cooked_physics path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket"/>
 	<model path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket"/>
 	<object path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket"/>
-	<unit path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket"/>
-	<unit path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket_secondary"/>
 	<unit path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket_npc"/>
+	<unit path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket_secondary"/>
 	<unit path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket_primary"/>
-	<unit path="units/mods/weapons/wpn_fps_ass_akrocket/wpn_fps_ass_akrocket_primary_npc"/>
 	<cooked_physics path="units/mods/weapons/wpn_fps_ass_akrocket_pts/wpn_fps_ass_akrocket_barrel"/>
 	<model path="units/mods/weapons/wpn_fps_ass_akrocket_pts/wpn_fps_ass_akrocket_barrel"/>
 	<object path="units/mods/weapons/wpn_fps_ass_akrocket_pts/wpn_fps_ass_akrocket_barrel"/>
@@ -508,7 +506,7 @@
 	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun"/>
 	<model path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun"/>
 	<object path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun"/>
-	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun"/>
+	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_primary"/>
 	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_secondary"/>
 	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_npc"/>
 	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body"/>
@@ -517,12 +515,12 @@
 	<unit path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body"/>
 	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body"/>
 	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body_thq"/>
-	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal"/>
-	<model path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal"/>
-	<object path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal"/>
-	<unit path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal"/>
-	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal"/>
-	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_thq"/>
+	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static"/>
+	<model path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static"/>
+	<object path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static"/>
+	<unit path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static_thq"/>
 	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_reticle"/>
 	<model path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_reticle"/>
 	<object path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_reticle"/>
@@ -553,12 +551,6 @@
 	<unit path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_b_dummy"/>
 	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_b_dummy"/>
 	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_b_dummy_thq"/>
-	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_vis"/>
-	<model path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_vis"/>
-	<object path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_vis"/>
-	<unit path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_vis"/>
-	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_vis"/>
-	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_vis_thq"/>
 	<texture path="effects/textures/raygun_trail_df"/>
 	<texture path="effects/textures/raygun_circle_df"/>
 	<object force="true" path="units/pd2_dlc_ecp/weapons/wpn_prj_ecp_arrow_exp/wpn_prj_ecp_arrow_exp"/>
