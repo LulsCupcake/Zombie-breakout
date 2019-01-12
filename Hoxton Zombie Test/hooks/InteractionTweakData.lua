@@ -248,14 +248,6 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		timer = 1.5,
 	}
 	
-	self.zm_require_everyone = {
-		text_id = "zm_req",
-		action_text_id = "zm_buy_weapon",
-		start_active = false,
-		special_equipment = "zm_power_on",
-		equipment_text_id = "zm_require_everyone_nearby",
-	}
-	
 	self.zm_secret_bunker = {
 		text_id = "zm_secret_bunker_hack",
 		action_text_id = "zm_hack",
@@ -264,13 +256,6 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		sound_interupt = "bar_keyboard_cancel",
 		sound_done = "bar_keyboard_finished",
 		timer = 5
-	}
-	
-	self.zm_power_start = {
-		text_id = "zm_restart_power_start",
-		action_text_id = "zm_power",
-		start_active = false,
-		timer = 5,
 	}
 
 	self.zm_open_path_1000 = {
@@ -305,143 +290,12 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 	
 	self.zm_invisible = {
 		text_id = "zm_activate_song_invisible",
-		action_text_id = "zm_buy_weapon",
 		start_active = false,
+		action_text_id = "zm_buy_weapon",
+		special_equipment_block = "gas",
 		interact_distance = 250
 	}
-	
-	self.zm_bottle = {
-		text_id = "zm_activate_song_invisible",
-		action_text_id = "zm_buy_weapon",
-		start_active = false,
-		interact_distance = 250,
-		sound_done = "bar_bag_money_finished"
-	}
-	
-	self.zm_authorization = {
-		text_id = "zm_activate_song_invisible",
-		action_text_id = "zm_grabbing_hand",
-		start_active = false,
-		sound_start = "bar_cut_off_arm",
-		sound_interupt = "bar_cut_off_arm_cancel",
-		sound_done = "bar_cut_off_arm_finished",
-		interact_distance = 250,
-		timer = 3
-	}
-	
-	self.zm_computer_authorize = {
-		text_id = "zm_authorize",
-		action_text_id = "zm_authorizing",
-		start_active = false,
-		interact_distance = 250,
-		sound_start = "bar_train_panel_hacking",
-		sound_interupt = "bar_train_panel_hacking_cancel",
-		sound_done = "bar_train_panel_hacking_finished",
-		timer = 3
-	}
-	
-	self.zm_place_crystal = {
-		text_id = "zm_place_crystal",
-		action_text_id = "zm_placing_crystal",
-		start_active = false,
-		sound_event = "money_grab",
-	}
-	
-	self.zm_next_song = {
-		text_id = "zm_next_song",
-		action_text_id = "zm_music",
-		start_active = false,
-		sound_done = "bar_keyboard_cancel",
-	}
-	
-	self.zm_restart_song = {
-		text_id = "zm_restart_song",
-		action_text_id = "zm_music",
-		start_active = false,
-		sound_done = "bar_keyboard_cancel",
-	}
-	
-	self.zm_previous_song = {
-		text_id = "zm_previous_song",
-		action_text_id = "zm_music",
-		start_active = false,
-		sound_done = "bar_keyboard_cancel",
-	}
-	
-	self.zm_power_req = { 
-		text_id = "zm_teleporter",
-		action_text_id = "zm_use_teleporter",
-		start_active = false,
-		special_equipment = "zm_power_on",
-		equipment_text_id = "zm_no_power",
-	}
-	
-	self.zm_require_all_crystals = { 
-		text_id = "zm_teleporter",
-		action_text_id = "zm_use_teleporter",
-		start_active = false,
-		special_equipment = "zm_power_on",
-		equipment_text_id = "zm_require_all_crystals",
-	}
-	
-	self.zm_security = { 
-		text_id = "zm_teleporter",
-		action_text_id = "zm_use_teleporter",
-		start_active = false,
-		special_equipment = "zm_power_on",
-		equipment_text_id = "zm_security",
-	}
-	
-	self.zm_return_round = { 
-		text_id = "zm_teleporter",
-		action_text_id = "zm_use_teleporter",
-		start_active = false,
-		special_equipment = "zm_power_on",
-		equipment_text_id = "zm_return_round",
-	}
-	
-	self.zm_grab_crystal = { 
-		text_id = "zm_grab_crystal",
-		action_text_id = "zm_grabing_part",
-		start_active = false,
-		sound_event = "money_grab",
-	}
-	
-	
-	self.zm_teleporter = {
-		is_teleporter = true,
-		text_id = "zm_teleporter",
-		action_text_id = "zm_use_teleporter",
-		start_active = false,
-		timer = 1,
-		interact_distance = 500
-	}
-	
-	self.zm_teleporter_end = {
-		is_teleporter = true,
-		text_id = "zm_teleporter",
-		action_text_id = "zm_teleport_end",
-		start_active = false,
-		timer = 1,
-		interact_distance = 500
-	}
-	
-	self.zm_teleport_back = {
-		is_teleporter = true,
-		text_id = "zm_teleporter_back",
-		action_text_id = "zm_teleport_back",
-		start_active = false,
-		timer = 5,
-		axis = "y"
-	}
 
-	self.zm_teleporter_dummy_reload = {
-		text_id = "zm_teleporter_cooling_down",
-		start_active = false,
-		special_equipment = "zm_dummy_item",
-		equipment_text_id = "zm_teleporter_cooling_down",
-		interact_distance = 500
-	}
 
 	self.zm_perk_juggernog = {
 		zm_interaction = true,
@@ -529,13 +383,6 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		timer = 3
 	}
 	
-	self.zm_gas = {
-		text_id = "zm_gas",
-		special_equipment = "zm_power_on",
-		equipment_text_id = "zm_gas",
-		start_active = false,
-		timer = 3
-	}
 
 	self.zm_perk_stamin = {
 		zm_interaction = true,
@@ -548,50 +395,6 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		timer = 3,	
 		sound_done = "bar_bag_money_finished",
 		special_equipment_block = "perk_staminup"
-	}
-
-	self.zm_point_giveaway_spot_1 = {
-		zm_interaction = true,
-		point_giveaway_spot = true,
-		spot_nb = 1,
-		points_cost = 0,
-		stay_active = true,
-		sound_done = "bar_rescue",
-		start_active = false,
-		axis = "y"
-	}
-
-	self.zm_point_giveaway_spot_2 = {
-		zm_interaction = true,
-		point_giveaway_spot = true,
-		spot_nb = 2,
-		stay_active = true,
-		points_cost = 0,
-		sound_done = "bar_rescue",
-		start_active = false,
-		axis = "y"
-	}
-
-	self.zm_point_giveaway_spot_3 = {
-		zm_interaction = true,
-		point_giveaway_spot = true,
-		spot_nb = 3,
-		stay_active = true,
-		points_cost = 0,
-		sound_done = "bar_rescue",
-		start_active = false,
-		axis = "y"
-	}
-
-	self.zm_point_giveaway_spot_4 = {
-		zm_interaction = true,
-		point_giveaway_spot = true,
-		spot_nb = 4,
-		stay_active = true,
-		points_cost = 0,
-		sound_done = "bar_rescue",
-		start_active = false,
-		axis = "y"
 	}
 	
 	self.zm_hack1 = {
@@ -657,6 +460,30 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		sound_interupt = "bar_cop_car_cancel",
 		sound_done = "bar_cop_car_finished",
 		timer = 5
+	}
+	
+	self.zm_key = {
+		text_id = "zm_key",
+		action_text_id = "zm_keying",
+		start_active = false,
+		special_equipment = "keychain",
+		equipment_text_id = "zm_no_key",
+		sound_start = "bar_unlock_grate_door",
+		sound_interupt = "bar_unlock_grate_door_cancel",
+		sound_done = "bar_unlock_grate_door_finished",
+		timer = 5
+	}
+	
+	self.zm_gas = {
+		text_id = "zm_gas",
+		action_text_id = "zm_gassing",
+		start_active = false,
+		special_equipment = "gas",
+		equipment_text_id = "zm_no_gas",
+		sound_start = "liquid_pour",
+		sound_interupt = "liquid_pour_stop",
+		sound_done = "liquid_pour_stop",
+		timer = 10
 	}
 
 end)
