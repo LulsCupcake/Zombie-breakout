@@ -194,10 +194,10 @@
 	<unit path="new_weapon_units/wpn_fps_smg_tec9_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_smg_tec9_upg_primary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_smg_tec9_upg_secondary"/>
-	<unit path="new_weapon_units/wpn_fps_snp_msr_primary"/>
-	<unit path="new_weapon_units/wpn_fps_snp_msr_secondary"/>
-	<unit path="new_weapon_units/upgrade/wpn_fps_snp_msr_upg_primary"/>
-	<unit path="new_weapon_units/upgrade/wpn_fps_snp_msr_upg_secondary"/>
+	<unit path="new_weapon_units/wpn_fps_snp_mosin_primary"/>
+	<unit path="new_weapon_units/wpn_fps_snp_mosin_secondary"/>
+	<unit path="new_weapon_units/upgrade/wpn_fps_snp_mosin_upg_primary"/>
+	<unit path="new_weapon_units/upgrade/wpn_fps_snp_mosin_upg_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_spe_vulcan_upg_primary"/>
 	<unit path="new_weapon_units/wpn_fps_sho_deamon_primary"/>
 	<unit path="new_weapon_units/wpn_fps_sho_deamon_secondary"/>
@@ -207,7 +207,10 @@
 	<unit path="new_weapon_units/wpn_fps_bow_elastic_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_bow_elastic_upg_primary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_bow_elastic_upg_secondary"/>
+	<unit path="new_weapon_units/wpn_fps_pis_g22c_primary"/>
+	<unit path="new_weapon_units/wpn_fps_pis_g22c_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_pis_stryk_upg_secondary"/>
+	<unit path="new_weapon_units/upgrade/wpn_fps_pis_stryk_upg_primary"/>
 	<unit path="new_weapon_units/wpn_fps_ass_contraband_rifle_primary"/>
 	<unit path="new_weapon_units/wpn_fps_ass_contraband_rifle_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_ass_contraband_rifle_upg_primary"/>

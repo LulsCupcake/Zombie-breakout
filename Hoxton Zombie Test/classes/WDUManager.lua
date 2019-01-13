@@ -550,7 +550,7 @@ function WDUManager:_get_weapons_in_mystery_box()
 		"wpn_fps_lmg_hk21",
 		"wpn_fps_lmg_m249",
 		"wpn_fps_pis_rage",
-		"wpn_fps_snp_msr",
+		"wpn_fps_snp_mosin",
 		"wpn_fps_ass_flint",
 		"wpn_fps_pis_breech",
 		"wpn_fps_spe_rpg7",
@@ -561,7 +561,8 @@ function WDUManager:_get_weapons_in_mystery_box()
         "wpn_fps_ass_contraband_rifle",
         "wpn_fps_ass_tar21",
         "wpn_fps_lmg_par",
-        "wpn_fps_pis_packrat"
+        "wpn_fps_pis_packrat",
+		"wpn_fps_pis_g22c"
     }
 end
 
@@ -631,14 +632,15 @@ function WDUManager:_convert_factory_to_upgrade()
         wpn_fps_spe_rpg7_secondary = "wpn_fps_spe_rpg7_upg_secondary",
         wpn_fps_special_roach_primary = "wpn_fps_special_roach_upg_primary",
         wpn_fps_special_roach_secondary = "wpn_fps_special_roach_upg_secondary",
-        wpn_fps_snp_msr_primary = "wpn_fps_snp_msr_upg_primary",
-        wpn_fps_snp_msr_secondary = "wpn_fps_snp_msr_upg_secondary",
+        wpn_fps_snp_mosin_primary = "wpn_fps_snp_mosin_upg_primary",
+        wpn_fps_snp_mosin_secondary = "wpn_fps_snp_mosin_upg_secondary",
         wpn_fps_ass_nothing2_primary = "wpn_fps_spe_vulcan_upg_primary",
         wpn_fps_sho_deamon_primary = "wpn_fps_sho_deamon_upg_primary",
         wpn_fps_sho_deamon_secondary = "wpn_fps_sho_deamon_upg_secondary",
         wpn_fps_bow_elastic_primary = "wpn_fps_bow_elastic_upg_primary",
         wpn_fps_bow_elastic_secondary = "wpn_fps_bow_elastic_upg_secondary",
-        wpn_fps_pis_g22c = "wpn_fps_pis_stryk_upg_secondary",
+		wpn_fps_pis_g22c_primary = "wpn_fps_pis_stryk_upg_primary",
+        wpn_fps_pis_g22c_secondary = "wpn_fps_pis_stryk_upg_secondary",
         wpn_fps_ass_contraband_rifle_primary = "wpn_fps_ass_contraband_rifle_upg_primary",
         wpn_fps_ass_contraband_rifle_secondary = "wpn_fps_ass_contraband_rifle_upg_secondary",
         wpn_fps_ass_tar21_primary = "wpn_fps_ass_tar21_upg_primary",

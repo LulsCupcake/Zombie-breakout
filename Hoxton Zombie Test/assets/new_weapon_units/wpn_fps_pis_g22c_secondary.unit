@@ -1,12 +1,12 @@
-<unit type="wpn" slot="1" >
-    <object file="units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_msr/wpn_fps_snp_msr" />
+<unit type="static" slot="1" >
+    <object file="units/payday2/weapons/wpn_fps_pis_g22c/wpn_fps_pis_g22c" />
 	<dependencies>
-		<depends_on bnk="soundbanks/weapon_msr"/>
+		<depends_on bnk="soundbanks/weapon_g22c"/>
 	</dependencies>
     <extensions>
         <extension name="unit_data" class="ScriptUnitData" />
         <extension name="base" class="NewRaycastWeaponBase" >
-			<var name="name_id" value="msr_secondary" />
+			<var name="name_id" value="g22c_secondary" />
 		</extension>
     </extensions>
 </unit>

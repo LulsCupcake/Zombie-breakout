@@ -17,7 +17,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 	
 	self.zm_free_raygun = {
 		zm_interaction = true,
-		weapon = "Raygun",
+		weapon = "gun",
 		weapon_id = "raygun",
 		points_cost = 0,
 		action_text_id = "zm_buy_weapon",
@@ -157,11 +157,11 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		timer = 0.5
 	}
 	
-	self.zm_wall_buy_msr = {
+	self.zm_wall_buy_mosin = {
 		zm_interaction = true,
-		weapon = "Rattlesnake",
-		weapon_id = "msr",
-		points_cost = 1400,
+		weapon = "Nagant",
+		weapon_id = "mosin",
+		points_cost = 500,
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
@@ -187,7 +187,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		zm_interaction = true,
 		weapon = "Galant Rifle",
 		weapon_id = "ching",
-		points_cost = 500,
+		points_cost = 1350,
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,

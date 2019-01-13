@@ -192,14 +192,10 @@ Hooks:PostHook(PlayerTweakData, "_init_new_stances", "zm_init_new_stances", func
 	self.stances.tec9_upg_primary = deep_clone(self.stances.tec9)
 	self.stances.tec9_upg_secondary = deep_clone(self.stances.tec9)
 
-	self.stances.msr_primary = deep_clone(self.stances.msr)
-	self.stances.msr_primary.steelsight.shoulders.translation = Vector3(-8.7, -36, -1.3)
-	self.stances.msr_secondary = deep_clone(self.stances.msr)
-	self.stances.msr_secondary.steelsight.shoulders.translation = Vector3(-8.7, -36, -1.3)
-	self.stances.msr_upg_primary = deep_clone(self.stances.msr)
-	self.stances.msr_upg_primary.steelsight.shoulders.translation = Vector3(-8.7, -38, -1.3)
-	self.stances.msr_upg_secondary = deep_clone(self.stances.msr)
-	self.stances.msr_upg_secondary.steelsight.shoulders.translation = Vector3(-8.7, -38, -1.3)
+	self.stances.mosin_primary = deep_clone(self.stances.mosin)
+	self.stances.mosin_secondary = deep_clone(self.stances.mosin)
+	self.stances.mosin_upg_primary = deep_clone(self.stances.mosin)
+	self.stances.mosin_upg_secondary = deep_clone(self.stances.mosin)
 
 	self.stances.vulcan_upg = deep_clone(self.stances.shuno)
 
@@ -219,6 +215,9 @@ Hooks:PostHook(PlayerTweakData, "_init_new_stances", "zm_init_new_stances", func
 	self.stances.elastic_upg_primary.steelsight.shoulders.rotation = Rotation(0.000160639, 0.0440202, 0.00246083, -0.999028)
 	self.stances.elastic_upg_secondary = deep_clone(self.stances.elastic_upg_primary)
 
+	self.stances.g22c_primary = deep_clone(self.stances.glock_18c)
+	self.stances.g22c_secondary = deep_clone(self.stances.glock_18c)
+	self.stances.stryk_upg_primary = deep_clone(self.stances.glock_18c)
 	self.stances.stryk_upg_secondary = deep_clone(self.stances.glock_18c)
 
 	self.stances.contraband_rifle_primary = deep_clone(self.stances.contraband)

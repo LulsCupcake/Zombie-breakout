@@ -154,7 +154,7 @@ function BaseInteractionExt:selected(player, locator, hand_id)
 		end
 		
 		if self._tweak_data.key then
-			text = "Hold " .. managers.localization:btn_macro("interact") .. " to start"
+			text = "Hold " .. managers.localization:btn_macro("interact") .. " to start "
 			local key_type = "the car"
 			
 			if self._tweak_data.key then

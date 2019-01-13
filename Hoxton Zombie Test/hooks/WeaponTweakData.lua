@@ -130,6 +130,18 @@ function WeaponTweakData:_init_zm_new_weapons()
     self.colt_1911_primary.use_data = {selection_index = PRIMARY}
     self.colt_1911_secondary = deep_clone(self.colt_1911_primary)
     self.colt_1911_secondary.use_data = {selection_index = SECONDARY}
+	
+	self.g22c_primary = deep_clone(self.g22c)
+    self.g22c_primary.name_id = "wpn_g22c_name"
+	self.g22c_primary.animations.reload_name_id = "g22c"
+    self.g22c_primary.weapon_hold = "glock"
+    self.g22c_primary.CLIP_AMMO_MAX = 16
+    self.g22c_primary.NR_CLIPS_MAX = 6
+    self.g22c_primary.AMMO_MAX = self.g22c_primary.CLIP_AMMO_MAX * self.g22c_primary.NR_CLIPS_MAX
+    self.g22c_primary.stats_modifiers = {damage = 1}
+	self.g22c_primary.use_data = {selection_index = PRIMARY}
+    self.g22c_secondary = deep_clone(self.g22c_primary)
+    self.g22c_secondary.use_data = {selection_index = SECONDARY}
 
     self.new_m14_primary = deep_clone(self.new_m14)
     self.new_m14_primary.animations.reload_name_id = "new_m14"
@@ -456,15 +468,15 @@ function WeaponTweakData:_init_zm_new_weapons()
     self.tec9_secondary = deep_clone(self.tec9_primary)
     self.tec9_secondary.use_data = {selection_index = SECONDARY}
 
-    self.msr_primary = deep_clone(self.msr)
-    self.msr_primary.animations.reload_name_id = "msr"
-    self.msr_primary.weapon_hold = "msr"
-    self.msr_primary.stats_modifiers = {damage = 2}
-    self.msr_primary.NR_CLIPS_MAX = self.msr_primary.NR_CLIPS_MAX * 2
-    self.msr_primary.AMMO_MAX = self.msr_primary.CLIP_AMMO_MAX * self.msr_primary.NR_CLIPS_MAX
-    self.msr_primary.use_data = {selection_index = PRIMARY, align_place = "left_hand"}
-    self.msr_secondary = deep_clone(self.msr_primary)
-    self.msr_secondary.use_data = {selection_index = SECONDARY, align_place = "left_hand"}
+    self.mosin_primary = deep_clone(self.mosin)
+    self.mosin_primary.animations.reload_name_id = "mosin"
+    self.mosin_primary.weapon_hold = "mosin"
+    self.mosin_primary.stats_modifiers = {damage = 1}
+    self.mosin_primary.NR_CLIPS_MAX = self.mosin_primary.NR_CLIPS_MAX * 2
+    self.mosin_primary.AMMO_MAX = self.mosin_primary.CLIP_AMMO_MAX * self.mosin_primary.NR_CLIPS_MAX
+    self.mosin_primary.use_data = {selection_index = PRIMARY, align_place = "left_hand"}
+    self.mosin_secondary = deep_clone(self.mosin_primary)
+    self.mosin_secondary.use_data = {selection_index = SECONDARY, align_place = "left_hand"}
 
     self.deamon_primary = deep_clone(self.boot)
     self.deamon_primary.animations.reload_name_id = "boot"
@@ -910,15 +922,15 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.tec9_upg_secondary = deep_clone(self.tec9_upg_primary)
     self.tec9_upg_secondary.use_data = {selection_index = SECONDARY}
 
-    self.msr_upg_primary = deep_clone(self.msr_primary)
-    self.msr_upg_primary.name_id = "wpn_msr_upg_name"
-    self.msr_upg_primary.CLIP_AMMO_MAX = 10
-    self.msr_upg_primary.NR_CLIPS_MAX = 6
-    self.msr_upg_primary.AMMO_MAX = self.msr_upg_primary.CLIP_AMMO_MAX * self.msr_upg_primary.NR_CLIPS_MAX
-    self.msr_upg_primary.stats_modifiers = {damage = 85}
-    self.msr_upg_primary.muzzleflash = "effects/zm/zm_pap_muzzle"
-    self.msr_upg_secondary = deep_clone(self.msr_upg_primary)
-    self.msr_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "left_hand"}
+    self.mosin_upg_primary = deep_clone(self.mosin_primary)
+    self.mosin_upg_primary.name_id = "wpn_mosin_upg_name"
+    self.mosin_upg_primary.CLIP_AMMO_MAX = 10
+    self.mosin_upg_primary.NR_CLIPS_MAX = 6
+    self.mosin_upg_primary.AMMO_MAX = self.mosin_upg_primary.CLIP_AMMO_MAX * self.mosin_upg_primary.NR_CLIPS_MAX
+    self.mosin_upg_primary.stats_modifiers = {damage = 85}
+    self.mosin_upg_primary.muzzleflash = "effects/zm/zm_pap_muzzle"
+    self.mosin_upg_secondary = deep_clone(self.mosin_upg_primary)
+    self.mosin_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "left_hand"}
 
     self.roach_upg_primary = deep_clone(self.roach_primary)
     self.roach_upg_primary.name_id = "wpn_roach_upg_name"
@@ -959,18 +971,21 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.elastic_upg_primary.muzzleflash = "effects/zm/zm_pap_muzzle"
     self.elastic_upg_secondary = deep_clone(self.elastic_upg_primary)
     self.elastic_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "left_hand"}
-
-    self.stryk_upg_secondary = deep_clone(self.glock_18c)
-    self.stryk_upg_secondary.name_id = "wpn_stryk_upg_name"
-    self.stryk_upg_secondary.animations.reload_name_id = "glock_18c"
-    self.stryk_upg_secondary.weapon_hold = "glock"
-    self.stryk_upg_secondary.CLIP_AMMO_MAX = 47
-    self.stryk_upg_secondary.NR_CLIPS_MAX = 7
-    self.stryk_upg_secondary.AMMO_MAX = self.stryk_upg_secondary.CLIP_AMMO_MAX * self.stryk_upg_secondary.NR_CLIPS_MAX
-    self.stryk_upg_secondary.stats_modifiers = {damage = 12}
-    self.stryk_upg_secondary.stats.recoil = 99
-    self.stryk_upg_secondary.stats.spread = 99
-    self.stryk_upg_secondary.muzzleflash = "effects/zm/zm_pap_muzzle"
+	
+    self.stryk_upg_primary = deep_clone(self.glock_18c)
+    self.stryk_upg_primary.name_id = "wpn_stryk_upg_name"
+    self.stryk_upg_primary.animations.reload_name_id = "glock_18c"
+    self.stryk_upg_primary.weapon_hold = "glock"
+    self.stryk_upg_primary.CLIP_AMMO_MAX = 47
+    self.stryk_upg_primary.NR_CLIPS_MAX = 7
+    self.stryk_upg_primary.AMMO_MAX = self.stryk_upg_primary.CLIP_AMMO_MAX * self.stryk_upg_primary.NR_CLIPS_MAX
+    self.stryk_upg_primary.stats_modifiers = {damage = 12}
+    self.stryk_upg_primary.stats.recoil = 99
+    self.stryk_upg_primary.stats.spread = 99
+    self.stryk_upg_primary.muzzleflash = "effects/zm/zm_pap_muzzle"
+	self.stryk_upg_primary.use_data = {selection_index = PRIMARY}
+	self.stryk_upg_secondary = deep_clone(self.stryk_upg_primary)
+	self.stryk_upg_secondary.use_data = {selection_index = SECONDARY}
 
     self.contraband_rifle_upg_primary = deep_clone(self.contraband_rifle_primary)
     self.contraband_rifle_upg_primary.name_id = "wpn_contraband_upg_name"
