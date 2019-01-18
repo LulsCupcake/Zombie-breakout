@@ -1,0 +1,88 @@
+<effect force_synch="false">
+    <atom name="trail" min_size="1" max_size="1" lifetime="-1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update_render" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="1" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
+            <localboxrandomposition min="0 0 0" max="0 0 0"/>
+            <boxrandomrotation relative="world" min="0 1 0" max="0 1 0" min_rot="0" max_rot="0"/>
+            <boxrandomrotation relative="effect" min="0 1 0" max="0 1 0" min_rot="0" max_rot="0"/>
+            <trail size="20"/>
+        </initializerstack>
+        <simulatorstack>
+            <worldtransform transform_rotations="true"/>
+            <trail size="20" mode="distance" distance="800"/>
+            <variableopacity name="opacity_1" opacity="1"/>
+        </simulatorstack>
+        <visualizerstack>
+            <trail size="20" trail_type="normal_locked" tesselation="1" curvature="0" tile_uv="false" tiles_per_meter="1" texture="effects/textures/raygun_trail_df" intensity="searchlight" blend_mode="normal" render_template="effect_op_add" per_particle_age="false" color_input="constant" color="253 0 0" opacity_input="scaled_channel" width_input="constant" width="20" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <color_multiplier_keys loop="false">
+                    <key t="0" v="1 1 1"/>
+                </color_multiplier_keys>
+                <opacity_scale_keys loop="false">
+                    <key t="0" v="1"/>
+                    <key t="0.49727767705917" v="50"/>
+                </opacity_scale_keys>
+                <opacity_multiplier_keys loop="false">
+                    <key t="0" v="1"/>
+                    <key t="50000" v="1"/>
+                    <key t="60000" v="0"/>
+                </opacity_multiplier_keys>
+            </trail>
+            <trail size="5" trail_type="normal_locked" tesselation="1" curvature="0" tile_uv="false" tiles_per_meter="1" texture="effects/textures/raygun_trail_df" intensity="supernova" blend_mode="normal" render_template="effect_op_add" per_particle_age="false" color_input="constant" color="253 0 0" opacity_input="scaled_channel" width_input="keys" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <color_multiplier_keys loop="false">
+                    <key t="0" v="1 1 1"/>
+                </color_multiplier_keys>
+                <opacity_scale_keys loop="false">
+                    <key t="0" v="255"/>
+                </opacity_scale_keys>
+                <opacity_multiplier_keys loop="false">
+                    <key t="0" v="1"/>
+                    <key t="500" v="1"/>
+                    <key t="1000" v="1"/>
+                </opacity_multiplier_keys>
+                <width_keys loop="false">
+                    <key t="0" v="20"/>
+                    <key t="0.49785408377647" v="30"/>
+                </width_keys>
+            </trail>
+        </visualizerstack>
+    </atom>
+    <atom name="lofi" min_size="250" max_size="1000" lifetime="-1" random_start_time="false" start_time="0.01" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update_render" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="0 0 -25" max="0 0 -25"/>
+            <boxrandomrotation relative="world" min="0 -1 0" max="0 1 0" min_rot="0" max_rot="1"/>
+            <constantage age="99999"/>
+            <boxrandomangle min="0" max="0"/>
+        </initializerstack>
+        <simulatorstack>
+            <teleporter name="" trigger_teleport="time" lifetime_input="constant" particle_lifetime="3" teleport_cap="1" current_position="false" channel="world" normal_variation="0" teleport_event="true" positioner="box">
+                <box min="0 0 0" max="0 0 0" min_normal="0 0 0" max_normal="0 0 0"/>
+                <normal min_velocity="50" max_velocity="50"/>
+            </teleporter>
+            <velocityintegrator channel="world"/>
+            <ager/>
+            <constantacceleration relative="world" acceleration="0 0 -2"/>
+            <anglevelocityintegrator/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/textures/raygun_circle_df" intensity="reddot" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="keys" opacity_input="keys" rotation_input="keys" rotation_axis="0 0 1" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <size_keys loop="false">
+                    <key t="0" v="5 5"/>
+                    <key t="0.2" v="30 30"/>
+                </size_keys>
+                <color_keys loop="false">
+                    <key t="0.10829102993011" v="188 8 8"/>
+                    <key t="0.27538725733757" v="188 8 8"/>
+                    <key t="0.60240966081619" v="158 18 18"/>
+                    <key t="4.440619468689" v="114 20 20"/>
+                </color_keys>
+                <opacity_keys loop="false">
+                    <key t="0.1" v="140"/>
+                    <key t="0.5" v="0"/>
+                </opacity_keys>
+                <rotation_keys loop="false">
+                    <key t="0" v="0"/>
+                </rotation_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>

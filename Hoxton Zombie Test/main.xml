@@ -6,7 +6,6 @@
 		<hook file="UpgradesTweakData.lua" source_file="lib/tweak_data/upgradestweakdata"/>
 		<hook file="DynamicResourceManager.lua" source_file="lib/managers/dynamicresourcemanager"/>
 		<hook file="ContractBrokerHeistItem.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
-		<hook file="MasksTweakData.lua" source_file="lib/tweak_data/blackmarket/maskstweakdata.lua"/>
 	</Hooks>
 	<Localization default="english.txt" directory="loc"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="quest_test_d" id="test" package="packages/contact_bain"/>

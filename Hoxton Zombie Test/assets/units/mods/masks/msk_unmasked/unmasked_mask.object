@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_crazy_lion_mask" materials="units/mods/masks/msk_unmasked/unmasked_mask" />
+    <graphics>
+        <object enabled="true" name="g_lion_mask" />
+    </graphics>
+</dynamic_object>

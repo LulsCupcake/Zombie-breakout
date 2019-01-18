@@ -1,0 +1,6 @@
+<materials version="3">
+	<material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" unique="true" version="2" name="mtr_crazy_lion">
+		<diffuse_texture file="units/mods/masks/msk_unmasked/unmasked_df"/>
+		<variable value="0" type="scalar" name="intensity"/>
+	</material>
+</materials>
