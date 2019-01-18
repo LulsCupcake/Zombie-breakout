@@ -9,7 +9,7 @@
 	</Hooks>
 	<Localization default="english.txt" directory="loc"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="quest_test_d" id="test" package="packages/contact_bain"/>
-	<level ai_group_type="zombie" gamemode_type="3arc_zm" id="hox_2_zombie" intro_event="" load_screen="" max_bags="0" music="no_music" team_ai_off="false">
+	<level ai_group_type="zombie" gamemode_type="3arc_zm" id="hox_2_zombie" intro_event="" load_screen="" max_bags="0" music="no_music" team_ai_off="true">
 		<add file="levels/hox_2_zombie/add.xml"/>
 		<hooks directory="hooks">
 			<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
