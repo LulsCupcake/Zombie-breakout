@@ -558,7 +558,7 @@ function WDUManager:_get_weapons_in_mystery_box()
         "wpn_fps_sho_deamon",
         "wpn_fps_bow_elastic",
         "wpn_fps_pis_1911",
-        "wpn_fps_ass_contraband_rifle",
+        "wpn_fps_ass_g3",
         "wpn_fps_ass_tar21",
         "wpn_fps_lmg_par",
         "wpn_fps_pis_packrat",
@@ -641,14 +641,16 @@ function WDUManager:_convert_factory_to_upgrade()
         wpn_fps_bow_elastic_secondary = "wpn_fps_bow_elastic_upg_secondary",
 		wpn_fps_pis_g22c_primary = "wpn_fps_pis_stryk_upg_primary",
         wpn_fps_pis_g22c_secondary = "wpn_fps_pis_stryk_upg_secondary",
-        wpn_fps_ass_contraband_rifle_primary = "wpn_fps_ass_contraband_rifle_upg_primary",
-        wpn_fps_ass_contraband_rifle_secondary = "wpn_fps_ass_contraband_rifle_upg_secondary",
+        wpn_fps_ass_g3_primary = "wpn_fps_ass_g3_upg_primary",
+        wpn_fps_ass_g3_secondary = "wpn_fps_ass_g3_upg_secondary",
         wpn_fps_ass_tar21_primary = "wpn_fps_ass_tar21_upg_primary",
         wpn_fps_ass_tar21_secondary = "wpn_fps_ass_tar21_upg_secondary",
         wpn_fps_lmg_par_primary = "wpn_fps_lmg_par_upg_primary",
         wpn_fps_lmg_par_secondary = "wpn_fps_lmg_par_upg_secondary",
         wpn_fps_pis_packrat_primary = "wpn_fps_pis_packrat_upg_primary",
-        wpn_fps_pis_packrat_secondary = "wpn_fps_pis_packrat_upg_secondary"
+        wpn_fps_pis_packrat_secondary = "wpn_fps_pis_packrat_upg_secondary",
+		wpn_fps_spe_raygun_primary = "wpn_fps_spe_raygun_upg_primary",
+        wpn_fps_spe_raygun_secondary = "wpn_fps_spe_raygun_upg_secondary"
 	}
 end
 

@@ -315,7 +315,7 @@ function BaseInteractionExt:can_interact(player)
 				local current_weapon = current_state:get_equipped_weapon()
 				local weapon_id = current_weapon.name_id
 				
-				if string.find(weapon_id, "_upg_") or string.find(weapon_id, "_dg3_") or string.find(weapon_id, "raygun") then
+				if string.find(weapon_id, "_upg_") or string.find(weapon_id, "_dg3_") then
 					return false
 				end
 			end

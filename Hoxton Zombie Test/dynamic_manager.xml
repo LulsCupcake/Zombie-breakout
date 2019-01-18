@@ -1,4 +1,7 @@
 <table directory="assets">
+    <texture path="map_assets/ba_map_icon"/>
+    <texture path="map_assets/ba_map_bg"/>
+    <texture path="map_assets/ee_icon_done"/>
     <effect load="true" path="effects/zm/weapons/zm_pap_big_fps_ball_flash"/>
     <effect load="true" path="effects/zm/weapons/zm_pap_extra_fps_big_sparse"/>
     <effect load="true" path="effects/zm/weapons/zm_pap_big_fps_smoke_flash"/>
@@ -11,7 +14,7 @@
     <effect load="true" path="effects/particles/weapons/wunder_dg3_fire"/>
     <effect load="true" path="effects/particles/weapons/wunder_sparks"/>
     <effect load="true" path="effects/particles/weapons/wunder_dg3_sparks"/>
-    <effect load="true" path="effects/zm/zm_eyes"/>
+    <effect load="true" path="effects/zm/zm_eyes_red"/>
     <effect load="true" path="effects/zm/zm_teleport"/>
     <effect load="true" path="effects/zm/zm_teleport_sparks"/>
     <effect load="true" path="effects/zm/zm_glow"/>
@@ -27,6 +30,9 @@
     <effect load="true" path="effects/raygun_glow"/>
     <effect load="true" path="effects/raygun_trail"/>
 	<effect load="true" path="effects/raygun_fire"/>
+    <effect load="true" path="effects/raygun_glow_pap"/>
+    <effect load="true" path="effects/raygun_trail_pap"/>
+	<effect load="true" path="effects/raygun_fire_pap"/>
 
     <font load="true" path="fonts/murderer"/>
     <texture path="fonts/murderer"/>

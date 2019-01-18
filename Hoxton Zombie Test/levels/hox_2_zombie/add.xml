@@ -211,10 +211,10 @@
 	<unit path="new_weapon_units/wpn_fps_pis_g22c_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_pis_stryk_upg_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_pis_stryk_upg_primary"/>
-	<unit path="new_weapon_units/wpn_fps_ass_contraband_rifle_primary"/>
-	<unit path="new_weapon_units/wpn_fps_ass_contraband_rifle_secondary"/>
-	<unit path="new_weapon_units/upgrade/wpn_fps_ass_contraband_rifle_upg_primary"/>
-	<unit path="new_weapon_units/upgrade/wpn_fps_ass_contraband_rifle_upg_secondary"/>
+	<unit path="new_weapon_units/wpn_fps_ass_g3_primary"/>
+	<unit path="new_weapon_units/wpn_fps_ass_g3_secondary"/>
+	<unit path="new_weapon_units/upgrade/wpn_fps_ass_g3_upg_primary"/>
+	<unit path="new_weapon_units/upgrade/wpn_fps_ass_g3_upg_secondary"/>
 	<unit path="new_weapon_units/wpn_fps_ass_tar21_primary"/>
 	<unit path="new_weapon_units/wpn_fps_ass_tar21_secondary"/>
 	<unit path="new_weapon_units/upgrade/wpn_fps_ass_tar21_upg_primary"/>
@@ -499,18 +499,49 @@
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/metal_df"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/metal_nm"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/plastic_df"/>
+	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/plastic_df_cc"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/plastic_nm"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/meter_df"/>
+	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/power_pap_df"/>
+	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/power_pap_il"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/meter_il"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/power_df"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/power_il"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/reticle_df"/>
 	<texture path="units/mods/weapons/wpn_fps_spe_raygun_pts/textures/reticle_il"/>
+	<cooked_physics path="units/mods/weapons/wpn_prj_raygun_blast/wpn_prj_raygun_blast"/>
+	<model path="units/mods/weapons/wpn_prj_raygun_blast/wpn_prj_raygun_blast"/>
+	<object path="units/mods/weapons/wpn_prj_raygun_blast/wpn_prj_raygun_blast"/>
+	<material_config path="units/mods/weapons/wpn_prj_raygun_blast/wpn_prj_raygun_blast"/>
+	<unit path="units/mods/weapons/wpn_prj_raygun_blast/wpn_prj_raygun_blast"/>
+	<unit path="units/mods/weapons/wpn_prj_raygun_blast/wpn_prj_raygun_blast_local"/>
+	<cooked_physics path="units/mods/weapons/wpn_prj_raygun_blast_pap/wpn_prj_raygun_blast_pap"/>
+	<model path="units/mods/weapons/wpn_prj_raygun_blast_pap/wpn_prj_raygun_blast_pap"/>
+	<object path="units/mods/weapons/wpn_prj_raygun_blast_pap/wpn_prj_raygun_blast_pap"/>
+	<material_config path="units/mods/weapons/wpn_prj_raygun_blast_pap/wpn_prj_raygun_blast_pap"/>
+	<unit path="units/mods/weapons/wpn_prj_raygun_blast_pap/wpn_prj_raygun_blast_pap"/>
+	<unit path="units/mods/weapons/wpn_prj_raygun_blast_pap/wpn_prj_raygun_blast_pap_local"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body_cc_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_metal_static_cc_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_reticle_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_reticle_cc_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_glass_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_glass_cc_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_power_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_power_cc_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_meter_cc_thq"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_b_dummy_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_b_dummy_cc_thq"/>
 	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun"/>
 	<model path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun"/>
 	<object path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun"/>
 	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_primary"/>
 	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_secondary"/>
+	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_upg_primary"/>
+	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_upg_secondary"/>
 	<unit path="units/mods/weapons/wpn_fps_spe_raygun/wpn_fps_spe_raygun_npc"/>
 	<cooked_physics path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body"/>
 	<model path="units/mods/weapons/wpn_fps_spe_raygun_pts/wpn_fps_spe_raygun_body"/>
@@ -557,11 +588,11 @@
 	<texture path="effects/textures/raygun_trail_df"/>
 	<texture path="effects/textures/raygun_circle_df"/>
 	<object force="true" path="units/pd2_dlc_ecp/weapons/wpn_prj_ecp_arrow_exp/wpn_prj_ecp_arrow_exp"/>
-	<cooked_physics path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes"/>
-	<material_config path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes"/>
-	<model path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes"/>
-	<object path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes"/>
-	<unit path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes"/>
+	<cooked_physics path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes_red"/>
+	<material_config path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes_red"/>
+	<model path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes_red"/>
+	<object path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes_red"/>
+	<unit path="units/zdann/ene_acc_zombie_eyes/ene_acc_zombie_eyes_red"/>
 	<texture path="units/zdann/ene_acc_zombie_eyes/zombie_eyes_il"/>
 	<object force="true" path="units/pd2_dlc_hvh/characters/ene_fbi_heavy_hvh_1/ene_fbi_heavy_hvh_1"/>
 	<object force="true" path="units/pd2_dlc_hvh/characters/ene_fbi_swat_hvh_1/ene_fbi_swat_hvh_1"/>
@@ -834,4 +865,27 @@
 	</add>
 	<movie path="movies/ascension"/>
 	<sequence_manager path="units/sora/shoot_at_trigger/shoot_at_shared"/>
+	
+	<unit path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
+	<object path="uunits/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
+	<model path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
+	<material_config path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
+	<cooked_physics path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
+		
+	<texture path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/heads_atlas_df"/>
+	<texture path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/swat_body_df"/>
+	<texture path="units/pd2_dlc_swat/characters/fps_swat/fp_df"/>
+		
+	<unit path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
+	<object path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
+	<model path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
+	<material_config path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
+	<cooked_physics path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
+	<cooked_physics path="units/mods/masks/msk_unmasked/unmasked_mask"/>
+    <model path="units/mods/masks/msk_unmasked/unmasked_mask"/>
+    <object path="units/mods/masks/msk_unmasked/unmasked_mask"/>
+    <unit path="units/mods/masks/msk_unmasked/unmasked_mask"/>
+    <material_config path="units/mods/masks/msk_unmasked/unmasked_mask"/>
+    <texture path="units/mods/masks/msk_unmasked/unmasked_df"/>
+    <texture path="units/mods/masks/msk_unmasked/unmasked_nm"/>
 </table>

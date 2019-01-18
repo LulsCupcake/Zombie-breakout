@@ -49,3 +49,5 @@ function RaycastWeaponBase:damage_multiplier()
 
 	return multiplier
 end
+
+InstantExplosiveBulletBase.EFFECT_PARAMS.sound_muffle_effect = false

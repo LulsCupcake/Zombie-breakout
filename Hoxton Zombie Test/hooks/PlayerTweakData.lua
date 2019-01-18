@@ -220,10 +220,10 @@ Hooks:PostHook(PlayerTweakData, "_init_new_stances", "zm_init_new_stances", func
 	self.stances.stryk_upg_primary = deep_clone(self.stances.glock_18c)
 	self.stances.stryk_upg_secondary = deep_clone(self.stances.glock_18c)
 
-	self.stances.contraband_rifle_primary = deep_clone(self.stances.contraband)
-	self.stances.contraband_rifle_secondary = deep_clone(self.stances.contraband)
-	self.stances.contraband_rifle_upg_primary = deep_clone(self.stances.contraband)
-	self.stances.contraband_rifle_upg_secondary = deep_clone(self.stances.contraband)
+	self.stances.g3_primary = deep_clone(self.stances.g3)
+	self.stances.g3_secondary = deep_clone(self.stances.g3)
+	self.stances.g3_upg_primary = deep_clone(self.stances.g3)
+	self.stances.g3_upg_secondary = deep_clone(self.stances.g3)
 
 	self.stances.tar21_primary = deep_clone(self.stances.komodo)
 	self.stances.tar21_secondary = deep_clone(self.stances.komodo)
@@ -249,4 +249,6 @@ Hooks:PostHook(PlayerTweakData, "_init_new_stances", "zm_init_new_stances", func
 	self.stances.raygun_primary.steelsight.shoulders.rotation = Rotation(-0.018108, -4.61179e-006, 0.00141215, -0.999835)
 	self.stances.raygun_primary.crouched.shoulders.translation = Vector3(0.783923, -1.43154, -5.207)
 	self.stances.raygun_secondary = deep_clone(self.stances.raygun_primary)
+	self.stances.raygun_upg_primary = deep_clone(self.stances.raygun_primary)
+	self.stances.raygun_upg_secondary = deep_clone(self.stances.raygun_primary)
 end)
