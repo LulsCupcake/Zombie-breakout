@@ -1597,4 +1597,36 @@ function WeaponFactoryTweakData:_define_sights()
         translation = Vector3(0, 5, -3.85),
     }
 	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_fal_upg_primary = {
+        translation = Vector3(0, 7, -3.5),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_fal_upg_secondary = {
+        translation = Vector3(0, 7, -3.5),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_schakal_upg_primary = {
+        translation = Vector3(0, 0, -2.8),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_schakal_upg_secondary = {
+        translation = Vector3(0, 0, -2.8),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_tec9_upg_primary = {
+        translation = Vector3(0, 0, -4.9),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_tec9_upg_secondary = {
+        translation = Vector3(0, 0, -4.9),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_pis_judge_upg_primary = {
+        translation = Vector3(-0.02, -10, -5.406),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_pis_judge_upg_secondary = {
+        translation = Vector3(-0.02, -10, -5.406),
+    }
+	
 end
