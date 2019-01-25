@@ -865,27 +865,4 @@
 	</add>
 	<movie path="movies/ascension"/>
 	<sequence_manager path="units/sora/shoot_at_trigger/shoot_at_shared"/>
-	
-	<unit path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
-	<object path="uunits/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
-	<model path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
-	<material_config path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
-	<cooked_physics path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/npc_rogue_swat"/>
-		
-	<texture path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/heads_atlas_df"/>
-	<texture path="units/pd2_dlc_rogue_swat/characters/npc_rogue_swat/swat_body_df"/>
-	<texture path="units/pd2_dlc_swat/characters/fps_swat/fp_df"/>
-		
-	<unit path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
-	<object path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
-	<model path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
-	<material_config path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
-	<cooked_physics path="units/pd2_dlc_swat/characters/fps_swat/fps_swat"/>
-	<cooked_physics path="units/mods/masks/msk_unmasked/unmasked_mask"/>
-    <model path="units/mods/masks/msk_unmasked/unmasked_mask"/>
-    <object path="units/mods/masks/msk_unmasked/unmasked_mask"/>
-    <unit path="units/mods/masks/msk_unmasked/unmasked_mask"/>
-    <material_config path="units/mods/masks/msk_unmasked/unmasked_mask"/>
-    <texture path="units/mods/masks/msk_unmasked/unmasked_df"/>
-    <texture path="units/mods/masks/msk_unmasked/unmasked_nm"/>
 </table>

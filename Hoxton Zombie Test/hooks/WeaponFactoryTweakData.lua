@@ -932,16 +932,18 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
     self.wpn_fps_ass_amcar_upg_primary.unit = "new_weapon_units/upgrade/wpn_fps_ass_amcar_upg_primary"
     self.wpn_fps_ass_amcar_upg_primary.default_blueprint = {
         "wpn_fps_m4_uupg_b_medium_vanilla",
-        "wpn_fps_m4_lower_reciever",
-        "wpn_fps_amcar_uupg_body_upperreciever",
-        "wpn_fps_amcar_uupg_fg_amcar",
-        "wpn_fps_upg_ns_ass_smg_tank",
-        "wpn_fps_upg_m4_m_quad",
-        "wpn_fps_upg_m4_s_ubr",
-        "wpn_fps_upg_fl_ass_laser",
-        "wpn_fps_upg_m4_g_standard_vanilla",
-        "wpn_fps_amcar_bolt_standard",
-		"wpn_fps_upg_o_reflex"
+		"wpn_fps_m4_lower_reciever",
+		"wpn_fps_amcar_uupg_body_upperreciever",
+		"wpn_fps_amcar_uupg_fg_amcar",
+		"wpn_fps_upg_m4_m_quad",
+		"wpn_fps_upg_m4_s_standard_vanilla",
+		"wpn_fps_upg_m4_g_standard_vanilla",
+		"wpn_fps_amcar_bolt_standard",
+		"wpn_fps_upg_o_reflex",
+		"wpn_fps_amcar_bolt_standard",
+		"wpn_fps_m4_upper_reciever_round",
+		"wpn_fps_m4_uupg_fg_rail",
+		"wpn_fps_upg_fl_ass_laser"
     }
     self.wpn_fps_ass_amcar_upg_secondary = deep_clone(self.wpn_fps_ass_amcar_upg_primary)
     self.wpn_fps_ass_amcar_upg_secondary.unit = "new_weapon_units/upgrade/wpn_fps_ass_amcar_upg_secondary"
@@ -1483,6 +1485,13 @@ function WeaponFactoryTweakData:_define_sights()
     self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_m16_upg_secondary = {
         translation = Vector3(0, 0, -0.12)
     }
+	
+	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_mosin_upg_primary = {
+        translation = Vector3(0, -28, -4.3)
+    }
+    self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_mosin_upg_secondary = {
+        translation = Vector3(0, -28, -4.3)
+    }
     
     self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_m14_upg_primary = {
         translation = Vector3(-0.02, -15, -3.85)
@@ -1493,98 +1502,99 @@ function WeaponFactoryTweakData:_define_sights()
     }
 
     self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_g3_upg_primary = {
-        translation = Vector3(-0.02, -15, -3.85),
+        translation = Vector3(0, 0, -3),
     }
 
     self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_g3_upg_secondary = {
-        translation = Vector3(-0.02, -15, -3.85),
+        translation = Vector3(0, 0, -3),
     }
 
 	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_m95_upg_primary = {
-        translation = Vector3(-0.02, -15, -3.85),
+        translation = Vector3(0, -1, -3.8),
     }
 	
     self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_m95_upg_secondary = {
-        translation = Vector3(-0.02, -15, -3.85),
+        translation = Vector3(0, -1, -3.85),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_mp9_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -3.47),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_mp9_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -3.47),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_aug_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -2.8),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_aug_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -2.8),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_p90_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -2.97),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_p90_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -2.97),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_scar_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -0.25),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_scar_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -0.25),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_thompson_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, -24, -4.2),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_thompson_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, -24, -4.2),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_flint_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 5, -2.65),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_flint_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 5, -2.65),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_74_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -3.1),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_74_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 0, -3.1),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_ching_upg_primary = {
-        translation = Vector3(-0.02, -15, -3.85),
+        translation = Vector3(0, 5, -2.77),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_ching_upg_secondary = {
-        translation = Vector3(-0.02, -15, -3.85),
+        translation = Vector3(0, 5, -2.77),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_shot_r870_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0.01, 0, -3.3),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_shot_r870_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0.01, 0, -3.3),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_erma_upg_primary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 5, -3.85),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_erma_upg_secondary = {
-        translation = Vector3(-0.01, 5, -1.7),
+        translation = Vector3(0, 5, -3.85),
     }
+	
 end

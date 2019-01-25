@@ -405,7 +405,14 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		equipment_text_id = "zm_no_power",
 	}
 	
-
+	self.zm_raygun_hint = { 
+		text_id = "zm_teleporter",
+		action_text_id = "zm_use_teleporter",
+		start_active = false,
+		special_equipment = "zm_power_on",
+		equipment_text_id = "zm_raygun_hint",
+	}
+	
 	self.zm_perk_stamin = {
 		zm_interaction = true,
 		points_cost = 3000,
