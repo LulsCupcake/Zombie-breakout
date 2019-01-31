@@ -145,7 +145,11 @@ function NewRaycastWeaponBase:soft_replenish()
 
 	self:set_ammo_max_per_clip(ammo_max_per_clip)
 	self:set_ammo_max(ammo_max)
-	self:set_ammo_total(ammo_max - ammo_max_per_clip)
+	if ammo_max == ammo_max_per_clip then 
+		self:set_ammo_total(ammo_max)
+	else
+		self:set_ammo_total(ammo_max - (ammo_max_per_clip - self:get_ammo_remaining_in_clip()))
+	end
 
 	if self._assembly_complete then
 		for _, gadget in ipairs(self:get_all_override_weapon_gadgets()) do

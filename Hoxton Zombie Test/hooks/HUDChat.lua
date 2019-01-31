@@ -1,3 +1,4 @@
+if not SystemFS:exists("mods/WolfHUD-master/mod.txt") then
 function HUDChat:_layout_output_panel()
 	local output_panel = self._panel:child("output_panel")
 
@@ -38,4 +39,5 @@ function HUDChat:_layout_output_panel()
 	end
 
 	output_panel:set_bottom(self._input_panel:top())
+end
 end

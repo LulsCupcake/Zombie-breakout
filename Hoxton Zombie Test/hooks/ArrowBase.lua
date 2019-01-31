@@ -11,7 +11,7 @@ function ArrowBase:_on_collision(col_ray)
 			local weapon_unit = self:weapon_unit()
 
 				if weapon_unit then
-					local is_upg_bow = string.find(weapon_unit:base()._name_id, "_upg_")
+					local is_upg_bow = string.find(weapon_unit:base()._name_id, "elastic_upg_")
 					if is_upg_bow then
 						if alive(col_ray.unit:body("mover_blocker")) then
 							local action_data = {}

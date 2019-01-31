@@ -1383,7 +1383,7 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
 		"wpn_fps_pis_g18c_s_stock",
 		"wpn_fps_upg_fl_pis_laser"
     }
-	self.wpn_fps_pis_stryk_upg_secondary = deep_clone(self.wpn_fps_pis_g18c)
+	self.wpn_fps_pis_stryk_upg_secondary = deep_clone(self.wpn_fps_pis_stryk_upg_primary)
     self.wpn_fps_pis_stryk_upg_secondary.unit = "new_weapon_units/upgrade/wpn_fps_pis_stryk_upg_secondary"
 	self.wpn_fps_pis_stryk_upg_primary_npc = deep_clone(self.wpn_fps_pis_stryk_upg_primary)
 	self.wpn_fps_pis_stryk_upg_primary_npc.unit = "units/payday2/weapons/wpn_fps_pis_g18c/wpn_fps_pis_g18c_npc"

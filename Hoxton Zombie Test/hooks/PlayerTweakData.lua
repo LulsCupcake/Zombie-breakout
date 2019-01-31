@@ -236,9 +236,7 @@ Hooks:PostHook(PlayerTweakData, "_init_new_stances", "zm_init_new_stances", func
 	self.stances.mosin_primary = deep_clone(self.stances.mosin)
 	self.stances.mosin_secondary = deep_clone(self.stances.mosin)
 	self.stances.mosin_upg_primary = deep_clone(self.stances.mosin)
-	self.stances.mosin_upg_primary.steelsight.shoulders.translation = Vector3(-8.777, -5.503, 3.873)
 	self.stances.mosin_upg_secondary = deep_clone(self.stances.mosin)
-	self.stances.mosin_upg_secondary.steelsight.shoulders.translation = Vector3(-8.777, -5.503, 3.873)
 
 	self.stances.vulcan_upg = deep_clone(self.stances.shuno)
 
