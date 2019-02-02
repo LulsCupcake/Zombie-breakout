@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel orientation_object="root_point" materials="units/payday2/characters/fbi_female_2/fbi_female_2" />
+
+	<decal_surfaces default_material="flesh" />
+
+	<graphics>
+		<graphic_group name="character" enabled="true" culling_object="g_body">
+			<object name="g_hair_cloth1" 		enabled="true"/>
+			<object name="g_body_details" 		enabled="true"/>
+			<object name="g_head" 		enabled="true"/>
+			<object name="g_body" 		enabled="true"/>
+			<object name="s_body" 				enabled="false" shadow_caster="false"/>
+		</graphic_group>
+	</graphics>
+
+</dynamic_object>

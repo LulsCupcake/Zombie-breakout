@@ -1,0 +1,13 @@
+<materials version="3" group="ene_fbi_2">
+	<material name="mtr_police_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/payday2/characters/shared_textures/head_01_nm"/>
+		<diffuse_texture 		file="units/payday2/characters/shared_textures/head_01_df"/>
+	</material>
+
+	<material name="mtr_police_body" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture 	file="units/payday2/characters/shared_textures/police_nm" mip="1"/>
+		<diffuse_texture 		file="units/payday2/characters/shared_textures/fbi_df"/>
+	</material>
+
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

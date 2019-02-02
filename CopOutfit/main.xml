@@ -1,0 +1,306 @@
+<table name="Cop Outfor For Zombout">
+	<AssetUpdates id="" version="0" provider="modworkshop"/>
+
+	<ScriptMods directory="script_data">
+		<!-- Third Person Suit Scripts -->
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/payday2/characters/npc_criminals_suit_1/npc_criminals_suit_1" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/payday2/characters/npc_criminal_female_1/npc_criminal_female_1" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_bonnie/characters/npc_criminal_bonnie/npc_criminal_bonnie" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_opera/characters/npc_criminals_fem_3/npc_criminal_sydney" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_wild/characters/npc_criminals_wild_1/npc_criminal_wild_1" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_chico/characters/npc_criminals_terry/npc_criminal_terry" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_max/characters/npc_criminals_max/npc_criminal_max" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_joy/characters/npc_criminals_joy_1/npc_criminal_joy_1" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_myh/characters/npc_criminals_myh/npc_criminal_myh" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_ecp/characters/npc_criminals_ecp_female/npc_criminal_ecp_female" target_type="sequence_manager" merge_mode="script_merge"/>
+		<mod file="cop_tps.xml" type="custom_xml" target_file="units/pd2_dlc_ecp/characters/npc_criminals_ecp_male/npc_criminal_ecp_male" target_type="sequence_manager" merge_mode="script_merge"/>
+
+		<mod file="cop_fps.xml" type="custom_xml" target_file="units/payday2/characters/fps_criminals_suit_1/fps_criminals_suit_1" target_type="sequence_manager" merge_mode="script_merge"/>
+	</ScriptMods>
+
+	<AddFiles directory="assets">
+		<unit path="units/payday2/characters/fbi_boss_1/fbi_boss_1"/>
+		<object path="units/payday2/characters/fbi_boss_1/fbi_boss_1"/>
+		<model path="units/payday2/characters/fbi_boss_1/fbi_boss_1"/>
+		<material_config path="units/payday2/characters/fbi_boss_1/fbi_boss_1"/>
+		<cooked_physics path="units/payday2/characters/fbi_boss_1/fbi_boss_1"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_boss_1/fps_fbi_boss_1"/>
+		<object path="units/payday2/characters/fps_fbi_boss_1/fps_fbi_boss_1"/>
+		<model path="units/payday2/characters/fps_fbi_boss_1/fps_fbi_boss_1"/>
+		<material_config path="units/payday2/characters/fps_fbi_boss_1/fps_fbi_boss_1"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_boss_1/fps_fbi_boss_1"/>
+		
+		<unit path="units/payday2/characters/fbi_female_1/fbi_female_1"/>
+		<object path="units/payday2/characters/fbi_female_1/fbi_female_1"/>
+		<model path="units/payday2/characters/fbi_female_1/fbi_female_1"/>
+		<material_config path="units/payday2/characters/fbi_female_1/fbi_female_1"/>
+		<cooked_physics path="units/payday2/characters/fbi_female_1/fbi_female_1"/>
+		
+		
+		<unit path="units/payday2/characters/fps_fbi_female_1/fps_fbi_female_1"/>
+		<object path="units/payday2/characters/fps_fbi_female_1/fps_fbi_female_1"/>
+		<model path="units/payday2/characters/fps_fbi_female_1/fps_fbi_female_1"/>
+		<material_config path="units/payday2/characters/fps_fbi_female_1/fps_fbi_female_1"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_female_1/fps_fbi_female_1"/>
+		
+		<unit path="units/payday2/characters/fbi_female_2/fbi_female_2"/>
+		<object path="units/payday2/characters/fbi_female_2/fbi_female_2"/>
+		<model path="units/payday2/characters/fbi_female_2/fbi_female_2"/>
+		<material_config path="units/payday2/characters/fbi_female_2/fbi_female_2"/>
+		<cooked_physics path="units/payday2/characters/fbi_female_2/fbi_female_2"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_female_2/fps_fbi_female_2"/>
+		<object path="units/payday2/characters/fps_fbi_female_2/fps_fbi_female_2"/>
+		<model path="units/payday2/characters/fps_fbi_female_2/fps_fbi_female_2"/>
+		<material_config path="units/payday2/characters/fps_fbi_female_2/fps_fbi_female_2"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_female_2/fps_fbi_female_2"/>
+		
+		<unit path="units/payday2/characters/fbi_female_3/fbi_female_3"/>
+		<object path="units/payday2/characters/fbi_female_3/fbi_female_3"/>
+		<model path="units/payday2/characters/fbi_female_3/fbi_female_3"/>
+		<material_config path="units/payday2/characters/fbi_female_3/fbi_female_3"/>
+		<cooked_physics path="units/payday2/characters/fbi_female_3/fbi_female_3"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_female_3/fps_fbi_female_3"/>
+		<object path="units/payday2/characters/fps_fbi_female_3/fps_fbi_female_3"/>
+		<model path="units/payday2/characters/fps_fbi_female_3/fps_fbi_female_3"/>
+		<material_config path="units/payday2/characters/fps_fbi_female_3/fps_fbi_female_3"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_female_3/fps_fbi_female_3"/>
+		
+		<unit path="units/payday2/characters/fbi_female_4/fbi_female_4"/>
+		<object path="units/payday2/characters/fbi_female_4/fbi_female_4"/>
+		<model path="units/payday2/characters/fbi_female_4/fbi_female_4"/>
+		<material_config path="units/payday2/characters/fbi_female_4/fbi_female_4"/>
+		<cooked_physics path="units/payday2/characters/fbi_female_4/fbi_female_4"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_female_4/fps_fbi_female_4"/>
+		<object path="units/payday2/characters/fps_fbi_female_4/fps_fbi_female_4"/>
+		<model path="units/payday2/characters/fps_fbi_female_4/fps_fbi_female_4"/>
+		<material_config path="units/payday2/characters/fps_fbi_female_4/fps_fbi_female_4"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_female_4/fps_fbi_female_4"/>
+		
+		<unit path="units/payday2/characters/fbi_office_1/fbi_office_1"/>
+		<object path="units/payday2/characters/fbi_office_1/fbi_office_1"/>
+		<model path="units/payday2/characters/fbi_office_1/fbi_office_1"/>
+		<material_config path="units/payday2/characters/fbi_office_1/fbi_office_1"/>
+		<cooked_physics path="units/payday2/characters/fbi_office_1/fbi_office_1"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_office_1/fps_fbi_office_1"/>
+		<object path="units/payday2/characters/fps_fbi_office_1/fps_fbi_office_1"/>
+		<model path="units/payday2/characters/fps_fbi_office_1/fps_fbi_office_1"/>
+		<material_config path="units/payday2/characters/fps_fbi_office_1/fps_fbi_office_1"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_office_1/fps_fbi_office_1"/>
+		
+		<unit path="units/payday2/characters/fbi_office_2/fbi_office_2"/>
+		<object path="units/payday2/characters/fbi_office_2/fbi_office_2"/>
+		<model path="units/payday2/characters/fbi_office_2/fbi_office_2"/>
+		<material_config path="units/payday2/characters/fbi_office_2/fbi_office_2"/>
+		<cooked_physics path="units/payday2/characters/fbi_office_2/fbi_office_2"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_office_2/fps_fbi_office_2"/>
+		<object path="units/payday2/characters/fps_fbi_office_2/fps_fbi_office_2"/>
+		<model path="units/payday2/characters/fps_fbi_office_2/fps_fbi_office_2"/>
+		<material_config path="units/payday2/characters/fps_fbi_office_2/fps_fbi_office_2"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_office_2/fps_fbi_office_2"/>
+
+		<unit path="units/payday2/characters/fbi_office_3/fbi_office_3"/>
+		<object path="units/payday2/characters/fbi_office_3/fbi_office_3"/>
+		<model path="units/payday2/characters/fbi_office_3/fbi_office_3"/>
+		<material_config path="units/payday2/characters/fbi_office_3/fbi_office_3"/>
+		<cooked_physics path="units/payday2/characters/fbi_office_3/fbi_office_3"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_office_3/fps_fbi_office_3"/>
+		<object path="units/payday2/characters/fps_fbi_office_3/fps_fbi_office_3"/>
+		<model path="units/payday2/characters/fps_fbi_office_3/fps_fbi_office_3"/>
+		<material_config path="units/payday2/characters/fps_fbi_office_3/fps_fbi_office_3"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_office_3/fps_fbi_office_3"/>
+		
+		<unit path="units/payday2/characters/fbi_office_4/fbi_office_4"/>
+		<object path="units/payday2/characters/fbi_office_4/fbi_office_4"/>
+		<model path="units/payday2/characters/fbi_office_4/fbi_office_4"/>
+		<material_config path="units/payday2/characters/fbi_office_4/fbi_office_4"/>
+		<cooked_physics path="units/payday2/characters/fbi_office_4/fbi_office_4"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_office_4/fps_fbi_office_4"/>
+		<object path="units/payday2/characters/fps_fbi_office_4/fps_fbi_office_4"/>
+		<model path="units/payday2/characters/fps_fbi_office_4/fps_fbi_office_4"/>
+		<material_config path="units/payday2/characters/fps_fbi_office_4/fps_fbi_office_4"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_office_4/fps_fbi_office_4"/>
+		
+		<unit path="units/payday2/characters/fbi_1/fbi_1"/>
+		<object path="units/payday2/characters/fbi_1/fbi_1"/>
+		<model path="units/payday2/characters/fbi_1/fbi_1"/>
+		<material_config path="units/payday2/characters/fbi_1/fbi_1"/>
+		<cooked_physics path="units/payday2/characters/fbi_1/fbi_1"/>
+		
+		<unit path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<object path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<model path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<material_config path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<cooked_physics path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_1/fps_fbi_1"/>
+		<object path="units/payday2/characters/fps_fbi_1/fps_fbi_1"/>
+		<model path="units/payday2/characters/fps_fbi_1/fps_fbi_1"/>
+		<material_config path="units/payday2/characters/fps_fbi_1/fps_fbi_1"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_1/fps_fbi_1"/>
+		
+		<unit path="units/payday2/characters/male_commissioner/male_commissioner"/>
+		<object path="units/payday2/characters/male_commissioner/male_commissioner"/>
+		<model path="units/payday2/characters/male_commissioner/male_commissioner"/>
+		<material_config path="units/payday2/characters/male_commissioner/male_commissioner"/>
+		<cooked_physics path="units/payday2/characters/male_commissioner/male_commissioner"/>
+		
+		<unit path="units/payday2/characters/fps_male_commissioner/fps_male_commissioner"/>
+		<object path="units/payday2/characters/fps_male_commissioner/fps_male_commissioner"/>
+		<model path="units/payday2/characters/fps_male_commissioner/fps_male_commissioner"/>
+		<material_config path="units/payday2/characters/fps_male_commissioner/fps_male_commissioner"/>
+		<cooked_physics path="units/payday2/characters/fps_male_commissioner/fps_male_commissioner"/>
+	
+		<unit path="units/payday2/characters/fbi_2/fbi_2"/>
+		<object path="units/payday2/characters/fbi_2/fbi_2"/>
+		<model path="units/payday2/characters/fbi_2/fbi_2"/>
+		<material_config path="units/payday2/characters/fbi_2/fbi_2"/>
+		<cooked_physics path="units/payday2/characters/fbi_2/fbi_2"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_2/fps_fbi_2"/>
+		<object path="units/payday2/characters/fps_fbi_2/fps_fbi_2"/>
+		<model path="units/payday2/characters/fps_fbi_2/fps_fbi_2"/>
+		<material_config path="units/payday2/characters/fps_fbi_2/fps_fbi_2"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_2/fps_fbi_2"/>
+		
+		<unit path="units/payday2/characters/fbi_3/fbi_3"/>
+		<object path="units/payday2/characters/fbi_3/fbi_3"/>
+		<model path="units/payday2/characters/fbi_3/fbi_3"/>
+		<material_config path="units/payday2/characters/fbi_3/fbi_3"/>
+		<cooked_physics path="units/payday2/characters/fbi_3/fbi_3"/>
+		
+		<unit path="units/payday2/characters/fps_fbi_3/fps_fbi_3"/>
+		<object path="units/payday2/characters/fps_fbi_3/fps_fbi_3"/>
+		<model path="units/payday2/characters/fps_fbi_3/fps_fbi_3"/>
+		<material_config path="units/payday2/characters/fps_fbi_3/fps_fbi_3"/>
+		<cooked_physics path="units/payday2/characters/fps_fbi_3/fps_fbi_3"/>
+		
+		<unit path="units/payday2/characters/prisonguard_female_1/prisonguard_female_1"/>
+		<object path="units/payday2/characters/prisonguard_female_1/prisonguard_female_1"/>
+		<model path="units/payday2/characters/prisonguard_female_1/prisonguard_female_1"/>
+		<material_config path="units/payday2/characters/prisonguard_female_1/prisonguard_female_1"/>
+		<cooked_physics path="units/payday2/characters/prisonguard_female_1/prisonguard_female_1"/>
+		
+		<unit path="units/payday2/characters/fps_prisonguard_female_1/fps_prisonguard_female_1"/>
+		<object path="units/payday2/characters/fps_prisonguard_female_1/fps_prisonguard_female_1"/>
+		<model path="units/payday2/characters/fps_prisonguard_female_1/fps_prisonguard_female_1"/>
+		<material_config path="units/payday2/characters/fps_prisonguard_female_1/fps_prisonguard_female_1"/>
+		<cooked_physics path="units/payday2/characters/fps_prisonguard_female_1/fps_prisonguard_female_1"/>
+		
+		<unit path="units/payday2/characters/prisonguard_male_1/prisonguard_male_1"/>
+		<object path="units/payday2/characters/prisonguard_male_1/prisonguard_male_1"/>
+		<model path="units/payday2/characters/prisonguard_male_1/prisonguard_male_1"/>
+		<material_config path="units/payday2/characters/prisonguard_male_1/prisonguard_male_1"/>
+		<cooked_physics path="units/payday2/characters/prisonguard_male_1/prisonguard_male_1"/>
+		
+		<unit path="units/payday2/characters/fps_prisonguard_male_1/fps_prisonguard_male_1"/>
+		<object path="units/payday2/characters/fps_prisonguard_male_1/fps_prisonguard_male_1"/>
+		<model path="units/payday2/characters/fps_prisonguard_male_1/fps_prisonguard_male_1"/>
+		<material_config path="units/payday2/characters/fps_prisonguard_male_1/fps_prisonguard_male_1"/>
+		<cooked_physics path="units/payday2/characters/fps_prisonguard_male_1/fps_prisonguard_male_1"/>
+		
+		<unit path="units/payday2/characters/male_casual_14/male_casual_14"/>
+		<object path="units/payday2/characters/male_casual_14/male_casual_14"/>
+		<model path="units/payday2/characters/male_casual_14/male_casual_14"/>
+		<material_config path="units/payday2/characters/male_casual_14/male_casual_14"/>
+		<cooked_physics path="units/payday2/characters/male_casual_14/male_casual_14"/>
+		
+		<unit path="units/payday2/characters/fps_male_casual_14/fps_male_casual_14"/>
+		<object path="units/payday2/characters/fps_male_casual_14/fps_male_casual_14"/>
+		<model path="units/payday2/characters/fps_male_casual_14/fps_male_casual_14"/>
+		<material_config path="units/payday2/characters/fps_male_casual_14/fps_male_casual_14"/>
+		<cooked_physics path="units/payday2/characters/fps_male_casual_14/fps_male_casual_14"/>
+		
+		<unit path="units/payday2/characters/male_casual_12/male_casual_12"/>
+		<object path="units/payday2/characters/male_casual_12/male_casual_12"/>
+		<model path="units/payday2/characters/male_casual_12/male_casual_12"/>
+		<material_config path="units/payday2/characters/male_casual_12/male_casual_12"/>
+		<cooked_physics path="units/payday2/characters/male_casual_12/male_casual_12"/>
+		
+		<unit path="units/payday2/characters/fps_male_casual_12/fps_male_casual_12"/>
+		<object path="units/payday2/characters/fps_male_casual_12/fps_male_casual_12"/>
+		<model path="units/payday2/characters/fps_male_casual_12/fps_male_casual_12"/>
+		<material_config path="units/payday2/characters/fps_male_casual_12/fps_male_casual_12"/>
+		<cooked_physics path="units/payday2/characters/fps_male_casual_12/fps_male_casual_12"/>
+		
+		<unit path="units/payday2/characters/male_casual_13/male_casual_13"/>
+		<object path="units/payday2/characters/male_casual_13/male_casual_13"/>
+		<model path="units/payday2/characters/male_casual_13/male_casual_13"/>
+		<material_config path="units/payday2/characters/male_casual_13/male_casual_13"/>
+		<cooked_physics path="units/payday2/characters/male_casual_13/male_casual_13"/>
+		
+		<unit path="units/payday2/characters/fps_male_casual_13/fps_male_casual_13"/>
+		<object path="units/payday2/characters/fps_male_casual_13/fps_male_casual_13"/>
+		<model path="units/payday2/characters/fps_male_casual_13/fps_male_casual_13"/>
+		<material_config path="units/payday2/characters/fps_male_casual_13/fps_male_casual_13"/>
+		<cooked_physics path="units/payday2/characters/fps_male_casual_13/fps_male_casual_13"/>
+		
+		<unit path="units/payday2/characters/male_business_casino_2/male_business_casino_2"/>
+		<object path="units/payday2/characters/male_business_casino_2/male_business_casino_2"/>
+		<model path="units/payday2/characters/male_business_casino_2/male_business_casino_2"/>
+		<material_config path="units/payday2/characters/male_business_casino_2/male_business_casino_2"/>
+		<cooked_physics path="units/payday2/characters/male_business_casino_2/male_business_casino_2"/>
+		
+		<unit path="units/payday2/characters/fps_male_business_casino_2/fps_male_business_casino_2"/>
+		<object path="units/payday2/characters/fps_male_business_casino_2/fps_male_business_casino_2"/>
+		<model path="units/payday2/characters/fps_male_business_casino_2/fps_male_business_casino_2"/>
+		<material_config path="units/payday2/characters/fps_male_business_casino_2/fps_male_business_casino_2"/>
+		<cooked_physics path="units/payday2/characters/fps_male_business_casino_2/fps_male_business_casino_2"/>
+		
+		<unit path="units/payday2/characters/male_business_casino_1/male_business_casino_1"/>
+		<object path="units/payday2/characters/male_business_casino_1/male_business_casino_1"/>
+		<model path="units/payday2/characters/male_business_casino_1/male_business_casino_1"/>
+		<material_config path="units/payday2/characters/male_business_casino_1/male_business_casino_1"/>
+		<cooked_physics path="units/payday2/characters/male_business_casino_1/male_business_casino_1"/>
+		
+		<unit path="units/payday2/characters/fps_male_business_casino_1/fps_male_business_casino_1"/>
+		<object path="units/payday2/characters/fps_male_business_casino_1/fps_male_business_casino_1"/>
+		<model path="units/payday2/characters/fps_male_business_casino_1/fps_male_business_casino_1"/>
+		<material_config path="units/payday2/characters/fps_male_business_casino_1/fps_male_business_casino_1"/>
+		<cooked_physics path="units/payday2/characters/fps_male_business_casino_1/fps_male_business_casino_1"/>
+		
+		<unit path="units/payday2/characters/vip_1/vip_1"/>
+		<object path="units/payday2/characters/vip_1/vip_1"/>
+		<model path="units/payday2/characters/vip_1/vip_1"/>
+		<material_config path="units/payday2/characters/vip_1/vip_1"/>
+		<cooked_physics path="units/payday2/characters/vip_1/vip_1"/>
+		
+		<unit path="units/payday2/characters/fps_vip_1/fps_vip_1"/>
+		<object path="units/payday2/characters/fps_vip_1/fps_vip_1"/>
+		<model path="units/payday2/characters/fps_vip_1/fps_vip_1"/>
+		<material_config path="units/payday2/characters/fps_vip_1/fps_vip_1"/>
+		<cooked_physics path="units/payday2/characters/fps_vip_1/fps_vip_1"/>
+		
+		<unit path="units/payday2/characters/phalanx_1/phalanx_1"/>
+		<object path="units/payday2/characters/phalanx_1/phalanx_1"/>
+		<model path="units/payday2/characters/phalanx_1/phalanx_1"/>
+		<material_config path="units/payday2/characters/phalanx_1/phalanx_1"/>
+		<cooked_physics path="units/payday2/characters/phalanx_1/phalanx_1"/>
+		
+		<unit path="units/payday2/characters/fps_phalanx_1/fps_phalanx_1"/>
+		<object path="units/payday2/characters/fps_phalanx_1/fps_phalanx_1"/>
+		<model path="units/payday2/characters/fps_phalanx_1/fps_phalanx_1"/>
+		<material_config path="units/payday2/characters/fps_phalanx_1/fps_phalanx_1"/>
+		<cooked_physics path="units/payday2/characters/fps_phalanx_1/fps_phalanx_1"/>
+		
+		<unit path="units/payday2/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet"/>
+		<object path="units/payday2/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet"/>
+		<model path="units/payday2/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet"/>
+		<cooked_physics path="units/payday2/characters/ene_acc_phalanx_helmet/ene_acc_phalanx_helmet"/>
+	</AddFiles>
+
+	<Hooks directory="hooks">
+		<hook file="networkpeer.lua" source_file="lib/network/base/networkpeer"/>
+		<hook file="teamaimovement.lua" source_file="lib/units/player_team/teamaimovement"/>
+
+		<hook file="nosync_unitlinking.lua" source_file="lib/units/props/managespawnedunits"/> 	
+	</Hooks>
+</table>

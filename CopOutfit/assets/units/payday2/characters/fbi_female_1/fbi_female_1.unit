@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<unit type="dah" slot="1">
+	<object file="units/payday2/characters/fbi_female_1/fbi_female_1" />
+	
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="base" class="PlayerBodyBoneMergeBase">
+			<var name="original_material" value="units/payday2/characters/fbi_female_1/fbi_female_1" />
+			<var name="contour_material" value="units/payday2/characters/fbi_female_1/fbi_female_1" />
+		</extension>
+		<extension name="contour" class="ContourExt" />
+	</extensions>
+</unit>

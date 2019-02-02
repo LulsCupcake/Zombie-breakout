@@ -1,0 +1,11 @@
+<materials version="3" group="ene_fbi_office_4">
+	<material name="mtr_fbi_head_1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/payday2/characters/shared_textures/fbi_head_1_nm"/>
+		<diffuse_texture 		file="units/payday2/characters/shared_textures/fbi_head_1_df"/>
+	</material>
+	<material name="mtr_fbi_body" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" version="2">
+		<bump_normal_texture 	file="units/payday2/characters/shared_textures/fbi_body_nm"/>
+		<diffuse_texture 		file="units/payday2/characters/shared_textures/fbi_body_2_df"/>
+	</material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+</materials>

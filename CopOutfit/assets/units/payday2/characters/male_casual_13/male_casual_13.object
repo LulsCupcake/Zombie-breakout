@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/characters/male_casual_13/male_casual_13" orientation_object="root_point" />
+
+	<decal_surfaces default_material="flesh" />
+
+	<graphics>
+		<graphic_group name="character" enabled="true" culling_object="g_body">
+			<object name="g_body" 		enabled="true"/>
+			<object name="g_head" 		enabled="true"/>
+			
+			<object name="s_body" enabled="false" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+
+</dynamic_object>

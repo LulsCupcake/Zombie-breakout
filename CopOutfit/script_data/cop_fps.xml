@@ -1,0 +1,237 @@
+<table>
+	<table search="unit">
+		<filter name="'is_russian'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'russian'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_dallas'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_male_commissioner/fps_male_commissioner'"/>
+		</sequence>
+		
+		<filter name="'is_german'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'german'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_wolf'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_office_2/fps_fbi_office_2'"/>
+		</sequence>
+		
+		<filter name="'is_spanish'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'spanish'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_chains'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_3/fps_fbi_3'"/>
+		</sequence>
+		
+		<filter name="'is_american'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'american'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_houston'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_office_1/fps_fbi_office_1'"/>
+		</sequence>
+		
+		<filter name="'is_jowi'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'jowi'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_jowi'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_1/fps_fbi_1'"/>
+		</sequence>
+		
+		<filter name="'is_old_hoxton'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'old_hoxton'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_hox'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_prisonguard_male_1/fps_prisonguard_male_1'"/>
+		</sequence>
+		
+		<filter name="'is_female_1'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'female_1'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_clover'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_female_1/fps_fbi_female_1'"/>
+		</sequence>
+		
+		<filter name="'is_dragan'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'dragan'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_dragan'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_male_casual_14/fps_male_casual_14'"/>
+		</sequence>
+		
+		<filter name="'is_jacket'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'jacket'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_jacket'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_2/fps_fbi_2'"/>
+		</sequence>
+		
+		<filter name="'is_bonnie'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'bonnie'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_bonnie'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_female_2/fps_fbi_female_2'"/>
+		</sequence>
+		
+		<filter name="'is_sokol'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'sokol'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_sokol'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_boss_1/fps_fbi_boss_1'"/>
+		</sequence>
+		
+		<filter name="'is_dragon'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'dragon'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_jiro'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_male_business_casino_1/fps_male_business_casino_1'"/>
+		</sequence>
+		
+		<filter name="'is_bodhi'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'bodhi'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_bodhi'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_male_business_casino_2/fps_male_business_casino_2'"/>
+		</sequence>
+		
+		<filter name="'is_jimmy'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'jimmy'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_jimmy'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_office_4/fps_fbi_office_4'"/>
+		</sequence>
+
+		<filter name="'is_sydney'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'sydney'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_sydney'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_prisonguard_female_1/fps_prisonguard_female_1'"/>
+		</sequence>
+		
+		<filter name="'is_wild'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'wild'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_rust'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_office_3/fps_fbi_office_3'"/>
+		</sequence>
+		
+		<filter name="'is_chico'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'chico'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_scarface'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_male_casual_12/fps_male_casual_12'"/>
+		</sequence>
+		
+		<filter name="'is_max'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'max'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_sangres'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_male_casual_13/fps_male_casual_13'"/>
+		</sequence>
+		
+		<filter name="'is_joy'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'joy'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_joy'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_female_4/fps_fbi_female_4'"/>
+		</sequence>
+		
+		<filter name="'is_myh'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'myh'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_duke'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_phalanx_1/fps_phalanx_1'"/>
+		</sequence>
+		
+		<filter name="'is_ecp_male'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'ecp_male'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_ethan'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_vip_1/fps_vip_1'"/>
+		</sequence>
+		
+		<filter name="'is_ecp_female'">
+			<check value="(dest_unit:parent() or dest_unit):base():character_name() == 'ecp_female'"/>
+		</filter>
+		
+		<sequence editable_state="false" name="'cop_spawn_hila'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_and_link_unit_nosync'" param1="'_char_joint_names'" param2="'char_mesh'" param3="'units/payday2/characters/fps_fbi_female_3/fps_fbi_female_3'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="false" name="'int_seq_hide_gloves_sleeves'" triggable="false">
+			<object name="'g_sleeve_wild'"		enabled="false"/>
+			<object name="'g_gloves_wild'"		enabled="false"/>
+			<object name="'g_sleeve_jimmy'"		enabled="false"/>
+			<object name="'g_sleeve_sydney'"		enabled="false"/>
+			<object name="'g_arm_sydney'"			enabled="false"/>
+			<object name="'g_gloves_female_2'"	enabled="false"/>
+			<object name="'g_gloves_terry'"		enabled="false"/>
+			<object name="'g_arms_max'"			enabled="false"/>
+			<object name="'g_sleeve_max'"			enabled="false"/>
+			<object name="'g_arms_joy'"			enabled="false"/>
+			<object name="'g_gloves_joy'"			enabled="false"/>
+			<object name="'g_gloves_myh'"			enabled="false"/>
+			<object name="'g_sleeve_myh'"			enabled="false"/>
+			<object name="'g_sleeve_ecp_male'"	enabled="false"/>
+			<object name="'g_sleeve_ecp_female'"	enabled="false"/>
+			<object name="'g_gloves_ecp_female'"	enabled="false"/>
+			<object name="'g_sleeve'" 			enabled="false" />
+			<object name="'g_arms_jacket'" 		enabled="false" />
+			<object name="'g_arms'" 				enabled="false" />
+			<object name="'g_gloves'" 			enabled="false" />
+			<object name="'g_gloves_female'" 		enabled="false" />
+			<object name="'g_arms_female'" 		enabled="false" />
+			<object name="'g_sleeve_female'" 		enabled="false" />
+			<object name="'g_sleeve_female_2'" 	enabled="false" />
+			<object name="'g_arms_female_2'" 		enabled="false" />
+			<object name="'g_arms_bodhi'"			enabled="false"/>
+			<object name="'g_jacket_bodhi'"		enabled="false"/>
+		</sequence>
+
+
+		<sequence editable_state="false" name="'spawn_cop_outfit'" triggable="true">
+			<run_sequence filter="'is_russian'" name="'cop_spawn_dallas'" start_time="5/30"/>
+			<run_sequence filter="'is_german'" name="'cop_spawn_wolf'" start_time="5/30"/>
+			<run_sequence filter="'is_spanish'" name="'cop_spawn_chains'" start_time="5/30"/>
+			<run_sequence filter="'is_american'" name="'cop_spawn_houston'" start_time="5/30"/>
+			<run_sequence filter="'is_jowi'" name="'cop_spawn_jowi'" start_time="5/30"/>
+			<run_sequence filter="'is_old_hoxton'" name="'cop_spawn_hox'" start_time="5/30"/>
+			<run_sequence filter="'is_female_1'" name="'cop_spawn_clover'" start_time="5/30"/>
+			<run_sequence filter="'is_dragan'" name="'cop_spawn_dragan'" start_time="5/30"/>
+			<run_sequence filter="'is_jacket'" name="'cop_spawn_jacket'" start_time="5/30"/>
+			<run_sequence filter="'is_bonnie'" name="'cop_spawn_bonnie'" start_time="5/30"/>
+			<run_sequence filter="'is_sokol'" name="'cop_spawn_sokol'" start_time="5/30"/>
+			<run_sequence filter="'is_dragon'" name="'cop_spawn_jiro'" start_time="5/30"/>
+			<run_sequence filter="'is_bodhi'" name="'cop_spawn_bodhi'" start_time="5/30"/>
+			<run_sequence filter="'is_jimmy'" name="'cop_spawn_jimmy'" start_time="5/30"/>
+			<run_sequence filter="'is_sydney'" name="'cop_spawn_sydney'" start_time="5/30"/>
+			<run_sequence filter="'is_wild'" name="'cop_spawn_rust'" start_time="5/30"/>
+			<run_sequence filter="'is_chico'" name="'cop_spawn_scarface'" start_time="5/30"/>
+			<run_sequence filter="'is_max'" name="'cop_spawn_sangres'" start_time="5/30"/>
+			<run_sequence filter="'is_joy'" name="'cop_spawn_joy'" start_time="5/30"/>
+			<run_sequence filter="'is_myh'" name="'cop_spawn_duke'" start_time="5/30"/>
+			<run_sequence filter="'is_ecp_male'" name="'cop_spawn_ethan'" start_time="5/30"/>
+			<run_sequence filter="'is_ecp_female'" name="'cop_spawn_hila'" start_time="5/30"/>
+			<run_sequence name="'int_seq_hide_gloves_sleeves'" start_time="10/30"/>
+		</sequence>
+	</table>
+</table>

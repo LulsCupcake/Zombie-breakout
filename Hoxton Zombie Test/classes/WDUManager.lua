@@ -123,7 +123,7 @@ function WDUManager:_init_new_player(data)
     end
 
     self:_set_player_name(data.id, data.name)
-    self:_set_start_money(data.id, 500)
+    self:_set_start_money(data.id, 9999999)
 end
 
 function WDUManager:_number_of_players()

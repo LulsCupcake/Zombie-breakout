@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel orientation_object="root_point" materials="units/payday2/characters/fps_prisonguard_female_1/fps_prisonguard_female_1" />
+
+	<decal_surfaces default_material="flesh" />
+
+	<graphics>
+		<graphic_group name="character" enabled="true" culling_object="g_body">
+			<object name="g_head"				enabled="false"/>
+			<object name="g_hair_cloth1"		enabled="false"/>
+			<object name="g_hair_cloth2"		enabled="false"/>
+			<object name="g_hair_cloth3"		enabled="false"/>
+			
+			<object name="g_body"		enabled="true"/>
+
+			<object name="s_body" 				enabled="true" shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+
+</dynamic_object>
