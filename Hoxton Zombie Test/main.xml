@@ -9,7 +9,7 @@
 	</Hooks>
 	<Localization default="english.txt" directory="loc"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="quest_test_d" id="test" package="packages/contact_bain"/>
-	<level ai_group_type="zombie" gamemode_type="3arc_zm" id="hox_2_zombie" intro_event="" load_screen="" max_bags="0" music="no_music" team_ai_off="false">
+	<level ai_group_type="zombie" gamemode_type="3arc_zm" id="hox_2_zombie" intro_event="" load_screen="" max_bags="0" music="no_music" team_ai_off="true">
 		<add file="levels/hox_2_zombie/add.xml"/>
 		<hooks directory="hooks">
 			<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
@@ -576,9 +576,9 @@
 			<sound id="raygun_in" path="on_close.ogg" prefix="third"/>
 		</sounds>
 	</level>
-	<narrative briefing_event="dentist_hb1_cbf_01" contact="the_dentist" dlc="pd2_clan" id="Hoxton Zombie Test" jc="60" load_screen="guis/dlcs/pic/textures/loading/job_breakout_01" region="street">
+	<narrative briefing_event="" contact="custom" id="Hoxton Breakout Zombies" jc="60" load_screen="guis/dlcs/pic/textures/loading/job_breakout_02" region="street">
 		<chain>
-			<table dlc="pd2_clan" level_id="hox_2_zombie" type="d" type_id="heist_type_assault"/>
+			<table dlc="" level_id="hox_2_zombie" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="62000"/>
@@ -590,7 +590,7 @@
 			<value_node value="800000"/>
 		</contract_cost>
 		<crimenet_callouts>
-			<value_node value="dentist_hb1_cnc_01"/>
+			<value_node value=""/>
 		</crimenet_callouts>
 		<crimenet_videos>
 			<value_node value="cn_hox1"/>
