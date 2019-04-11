@@ -5,7 +5,7 @@
 
 	<graphics>
 		<graphic_group name="character" enabled="true" culling_object="g_body">
-			<object name="g_hair_1"				enabled="true" />
+			<object name="g_hair_1"				enabled="false" />
 			<object name="g_hair_cloth1"		enabled="true" />
 			<object name="g_head" 		enabled="true" />
 			<object name="g_body_details" 		enabled="true" />
