@@ -1573,11 +1573,11 @@ function WeaponFactoryTweakData:_define_sights()
         translation = Vector3(0, 0, -3.1),
     }
 	
-	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_ching_upg_primary = {
+	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_ching_upg_primary = {
         translation = Vector3(0, 5, -2.77),
     }
 	
-	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_ching_upg_secondary = {
+	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_ching_upg_secondary = {
         translation = Vector3(0, 5, -2.77),
     }
 	
@@ -1629,4 +1629,27 @@ function WeaponFactoryTweakData:_define_sights()
         translation = Vector3(-0.02, -10, -5.406),
     }
 	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_pis_deagle_upg_primary = {
+        translation = Vector3(0, -15, -4.25),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_pis_deagle_upg_secondary = {
+        translation = Vector3(0, -15, -4.25),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_sho_striker_upg_primary = {
+        translation = Vector3(0, 0, -2.8),
+    }
+	
+	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_sho_striker_upg_secondary = {
+        translation = Vector3(0, 0, -2.8),
+    }
+	
+	self.parts.wpn_fps_upg_o_rmr.stance_mod.wpn_fps_pis_breech_upg_primary = {
+        translation = Vector3(0, 5, -0.65),
+    }
+	
+	self.parts.wpn_fps_upg_o_rmr.stance_mod.wpn_fps_pis_breech_upg_secondary = {
+        translation = Vector3(0, 5, -0.65),
+    }
 end
