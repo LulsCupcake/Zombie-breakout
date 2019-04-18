@@ -1,5 +1,5 @@
 <table name="Cop Outfor For Zombout">
-	<AssetUpdates id="24714" version="1" provider="modworkshop" use_local_dir="true"/>
+	<AssetUpdates id="" version="0" provider="modworkshop"/>
 
 	<ScriptMods directory="script_data">
 		<!-- Third Person Suit Scripts -->
@@ -133,6 +133,12 @@
 		<model path="units/payday2/characters/fbi_1/fbi_1"/>
 		<material_config path="units/payday2/characters/fbi_1/fbi_1"/>
 		<cooked_physics path="units/payday2/characters/fbi_1/fbi_1"/>
+		
+		<unit path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<object path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<model path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<material_config path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
+		<cooked_physics path="units/payday2/characters/ene_acc_fbi_hat/ene_acc_fbi_hat"/>
 		
 		<unit path="units/payday2/characters/fps_fbi_1/fps_fbi_1"/>
 		<object path="units/payday2/characters/fps_fbi_1/fps_fbi_1"/>
