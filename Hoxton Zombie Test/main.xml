@@ -63,7 +63,6 @@
 			<hook file="ArrowBase.lua" source_file="lib/units/weapons/projectiles/arrowbase"/>
 			<hook file="TimeSpeedEffectTweakData.lua" source_file="lib/tweak_data/timespeedeffecttweakdata"/>
 			<hook file="BaseNetworkManager.lua" source_file="lib/network/base/basenetworksession"/>
-			<hook file="PlayerInventory.lua" source_file="lib/units/beings/player/playerinventory"/>
 		</hooks>
 		<include directory="levels/hox_2_zombie">
 			<file file="world.world" type="binary"/>
