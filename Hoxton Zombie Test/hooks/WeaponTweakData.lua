@@ -462,7 +462,7 @@ function WeaponTweakData:_init_zm_new_weapons()
 	self.mosin_primary.can_shoot_through_enemy = false 
     self.mosin_primary.can_shoot_through_wall = false 
     self.mosin_primary.can_shoot_through_shield = false 
-    self.mosin_primary.stats_modifiers = {damage = 1}
+    self.mosin_primary.stats_modifiers = {damage = 1.5}
     self.mosin_primary.NR_CLIPS_MAX = self.mosin_primary.NR_CLIPS_MAX * 2
     self.mosin_primary.AMMO_MAX = self.mosin_primary.CLIP_AMMO_MAX * self.mosin_primary.NR_CLIPS_MAX
     self.mosin_primary.use_data = {selection_index = PRIMARY, align_place = "left_hand"}
