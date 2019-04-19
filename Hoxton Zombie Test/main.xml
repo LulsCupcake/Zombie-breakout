@@ -1,10 +1,10 @@
 <table global_key="zm_hox" name="Hoxton Zombout">
 	<AddFiles file="dynamic_manager.xml"/>
-	<AssetUpdates id="24715" provider="modworkshop" use_local_dir="true" version="1"/>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/hoxton_zombout_load"/>
 		<texture load="true" path="guis/hoxton_zombout_icon"/>
 	</AddFiles>
+	<AssetUpdates id="24715" provider="modworkshop" use_local_dir="true" version="1.01"/>
 	<Hooks directory="hooks">
 		<hook file="MeleeWeaponsTweakData.lua" source_file="lib/tweak_data/blackmarket/meleeweaponstweakdata"/>
 		<hook file="UpgradesTweakData.lua" source_file="lib/tweak_data/upgradestweakdata"/>
@@ -67,7 +67,6 @@
 			<hook file="ArrowBase.lua" source_file="lib/units/weapons/projectiles/arrowbase"/>
 			<hook file="TimeSpeedEffectTweakData.lua" source_file="lib/tweak_data/timespeedeffecttweakdata"/>
 			<hook file="BaseNetworkManager.lua" source_file="lib/network/base/basenetworksession"/>
-			<hook file="PlayerInventory.lua" source_file="lib/units/beings/player/playerinventory"/>
 		</hooks>
 		<include directory="levels/hox_2_zombie">
 			<file file="world.world" type="binary"/>
@@ -581,7 +580,7 @@
 			<sound id="raygun_in" path="on_close.ogg" prefix="third"/>
 		</sounds>
 	</level>
-	<narrative briefing_event="" contact="custom" id="Hoxton Breakout Zombies" jc="60" load_screen="guis/dlcs/pic/textures/loading/job_breakout_02" icon="guis/hoxton_zombout_icon" region="street">
+	<narrative briefing_event="" contact="custom" icon="guis/hoxton_zombout_icon" id="Hoxton Breakout Zombies" jc="60" load_screen="guis/dlcs/pic/textures/loading/job_breakout_02" region="street">
 		<chain>
 			<table dlc="" level_id="hox_2_zombie" type="d" type_id="heist_type_assault"/>
 		</chain>

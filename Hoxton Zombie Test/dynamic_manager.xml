@@ -1,7 +1,4 @@
 <table directory="assets">
-    <texture path="map_assets/ba_map_icon"/>
-    <texture path="map_assets/ba_map_bg"/>
-    <texture path="map_assets/ee_icon_done"/>
     <effect load="true" path="effects/zm/weapons/zm_pap_big_fps_ball_flash"/>
     <effect load="true" path="effects/zm/weapons/zm_pap_extra_fps_big_sparse"/>
     <effect load="true" path="effects/zm/weapons/zm_pap_big_fps_smoke_flash"/>
