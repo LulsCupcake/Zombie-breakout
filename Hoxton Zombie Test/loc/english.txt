@@ -8,7 +8,7 @@
 	"zm_no_key" : "You need to find some keys", 
 	"zm_key" : "Hold $BTN_INTERACT to unlock the car", 
 	"zm_keying" : "Unlocking...", 
-	"zm_no_gas" : "The car has no gas",
+	"zm_no_gas" : "The car needs gas cans",
 	"zm_gas" : "Hold $BTN_INTERACT to add gas to the car", 
 	"zm_gassing" : "Adding gas...", 
 	"zm_need_authorization" : "Need Authorization from Director", 
@@ -87,5 +87,5 @@
     "hud_perk_god" : "God Strength",
     "wpn_raygun" : "Ray Gun",
     "wpn_raygun_upg_name" : "Shovel's X2 Ray Gun",
-	"zm_raygun_hint" : "Find me or three, a present for you and me"
+	"zm_raygun_hint" : "Find me or three, a present for you I see"
 }
