@@ -4,7 +4,7 @@
 		<texture load="true" path="guis/hoxton_zombout_load"/>
 		<texture load="true" path="guis/hoxton_zombout_icon"/>
 	</AddFiles>
-	<AssetUpdates id="24715" provider="modworkshop" use_local_dir="true" version="1.01"/>
+	<AssetUpdates id="24715" provider="modworkshop" use_local_dir="true" version="1.2"/>
 	<Hooks directory="hooks">
 		<hook file="MeleeWeaponsTweakData.lua" source_file="lib/tweak_data/blackmarket/meleeweaponstweakdata"/>
 		<hook file="UpgradesTweakData.lua" source_file="lib/tweak_data/upgradestweakdata"/>
