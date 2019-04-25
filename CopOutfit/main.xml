@@ -294,7 +294,19 @@
 	<Hooks directory="hooks">
 		<hook file="networkpeer.lua" source_file="lib/network/base/networkpeer"/>
 		<hook file="teamaimovement.lua" source_file="lib/units/player_team/teamaimovement"/>
-
 		<hook file="nosync_unitlinking.lua" source_file="lib/units/props/managespawnedunits"/> 	
 	</Hooks>
+
+    <Mask id="nomask" unit="units/mods/masks/msk_nomask/msk_nomask" global_value="nomask" type="helmet"/>
+    <AddFiles directory="assets">
+	
+        <cooked_physics path="units/payday2/masks/msk_nomask/msk_nomask"/>
+        <model path="units/payday2/masks/msk_nomask/msk_nomask"/>
+        <object path="units/payday2/masks/msk_nomask/msk_nomask"/>
+        <unit path="units/payday2/masks/msk_nomask/msk_nomask"/>
+        <material_config path="units/payday2/masks/msk_nomask/msk_nomask"/>
+        <texture path="units/payday2/masks/msk_nomask/nomask_df"/>
+        <texture path="units/payday2/masks/msk_nomask/nomask_nm"/>
+
+    </AddFiles>
 </table>

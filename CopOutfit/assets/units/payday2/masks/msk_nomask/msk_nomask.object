@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_dallas_mask" materials="units/payday2/masks/msk_nomask/msk_nomask" />
+    <graphics>
+        <object enabled="false" name="g_dallas" />
+    </graphics>
+</dynamic_object>
